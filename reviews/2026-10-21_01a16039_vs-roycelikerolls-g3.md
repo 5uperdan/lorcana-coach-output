@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Status** | draft, for discussion |
+| **Status** | **final** (2026-11-02; turns 1, 9, 11, 15 and 17 revisited in discussion, on stonks 📈's feedback relayed by danny) |
 | **Replay** | `01a16039-37be` (`python3 tools/brief.py 01a16039 --turn N`) · [duels.ink viewer](https://duels.ink/replay/01a16039-37c0-71bd-ae60-72732b9a7c03?step=0) |
 | **Format** | Core Constructed (from game 1 of the match), best-of-three, the deciding game. Set 14 era: inks revealed before the coin toss |
 | **Decks** | stonks 📈: Sapphire/Steel Big Ramp with the Darkwing package ([the coach's notes on it](#cite-kb-meta-archetypes-sapphire-steel-big-ramp-with-the-darkwing-package-how-to-play-it)). roycelikerolls: Amethyst/Steel **Midrange**, known from games 1 and 2 |
@@ -12,24 +12,21 @@
 | **Chosen how** | Sent by danny, the coach's user, with stonks 📈's other games of the day; the coach picked five to review and studied the rest. The coach didn't know this game's result. It studied game 1 and reviewed game 2 first, both earlier games of the match |
 
 ## Summary
-- **Mistakes:**
-  - [Turn 9](#turn-9): Icon and Merida didn't quest. Both could have, for 5 lore, since every challenge into them
-    cost roycelikerolls the challenger.
-  - [Turn 17](#turn-17): Icon didn't challenge the exerted, damaged Demona, a kill that left Icon alive.
-- **Inaccuracies:**
-  - [Turn 11](#turn-11): no quests again, 2 or 3 lore.
-  - [Turn 15](#turn-15): no ink, which cost Khan Industries and Merida that turn.
+- **Mistakes and inaccuracies:** none. The blind pass had four (turns 9 and 17 mistakes, 11 and 15 inaccuracies);
+  discussion moved them to close calls and a good play.
 - **Good plays:**
   - [Turn 3](#turn-3): Terror on Maleficent, then Marie's quest for an ink drop.
   - [Turn 19](#turn-19): Tiana's free Khan Industries, Terror on Demona, and Icon moved to safety while both
     questers scored 5.
-- **Good:** the [pre-game](#turn-0), turns [5](#turn-5), [7](#turn-7), [13](#turn-13) and [21](#turn-21), and the
-  Hades choices on [10](#turn-10) and [20](#turn-20).
-- **Close call:** [turn 1](#turn-1), inking Khan Industries, this opponent's answer to Shere Khan.
+- **Good:** the [pre-game](#turn-0), turns [1](#turn-1), [5](#turn-5), [7](#turn-7), [13](#turn-13), [15](#turn-15)
+  and [21](#turn-21), and the Hades choices on [10](#turn-10) and [20](#turn-20).
+- **Close calls:** [turns 9](#turn-9), [11](#turn-11) and [17](#turn-17), keeping Unintentional Icon and Merida
+  ready rather than questing or challenging. Lore now against another turn of Icon's BESPOKE DESIGN.
 
-**What decided it:** the big turns from 19 on. Tiana's free Khan Industries, Terror on Demona, and two Shere Khans
-killed on turn 21 left them no way to stop 7 lore a turn. Before that, holding questers back on turns 9 and 11 kept the
-race close for longer than it needed to be.
+**What decided it:** the coach's blind pass put it on the big turns from 19: Tiana's free Khan Industries, Terror on
+Demona, and two Shere Khans killed on turn 21. stonks 📈 sees it as settled much earlier, by turn 11: a board as good as
+theirs or better, their hand empty, and two big characters still to come. The ready board forced them to spend Peter
+Pan's Shadow and Shere Khan to reach it, and kept their own board from questing.
 
 ## The game, turn by turn
 Verdicts judge each decision on what stonks 📈 could know at the time, **including archetype knowledge an
@@ -79,13 +76,11 @@ only real price. Confidence: medium.
 
 **What you did:** Inked Khan Industries – Greenway Landmark, played Marie – Caught in the Act.
 
-**Verdict:** **Close call, on the ink.** A 1-drop on turn 1 is right, and Marie or the Crime Fighter are much the same
-(Marie's ink drop wants a Terror first, the Crime Fighter makes Terror deal 3). The ink is the instructive part.
-Khan Industries was the hand's answer to this opponent's plan: characters at it can't be challenged at all, so
-Shere Khan's NEW INCENTIVE and the Challengers that took Priscilla, Drake Mallard, Merida and Icon in game 2 can't
-reach them. Inking Marie (or the Crime Fighter) and keeping Khan Industries for turn 9 keeps that option. The case for
-your ink: the hand had five inkable cards for five turns of ink, and Khan is the dearest, so it was always the likely
-one to go. Confidence: medium-low.
+**Verdict:** **Good** *(revisited in discussion; the blind pass called the ink a close call)*. A 1-drop on turn 1 is
+right, and Marie or the Crime Fighter are much the same (Marie's ink drop wants a Terror first, the Crime Fighter makes
+Terror deal 3). The blind pass wanted Khan Industries kept as the answer to Shere Khan. stonks 📈's view, relayed by
+danny: Khan Industries isn't a proactive play in this deck; it's a closer in a game you already lead, or a free play
+from Tiana. The hand had five inkable cards for five turns of ink, and Khan is the dearest and the latest of them.
 
 <a id="turn-2"></a>
 
@@ -188,21 +183,21 @@ their next turn (Resist 3 in all). Flash quested (1–4). Xanatos stayed back.
 **What you did:** Drew a Finest. Shifted Cinderella – Unintentional Icon onto Dream Come True for 5, didn't ink, and
 didn't quest. At the end of the turn BESPOKE DESIGN inked the Finest and put He Hurled His Thunderbolt on top.
 
-**Verdict:** **Mistake: leaving Icon and Merida ready.** Not questing is suboptimal because both could quest safely
-for 5 lore, in a race you were losing 1–4 against a board questing for 4 a turn. Icon shifted onto a Dream Come True
-that had been in play since turn 5, so she could act at once ([RULE-2](#cite-rule-2)).
-- **Every challenge into them costs a character.** Their challengers next turn are Flash (3 strength; Angela's buff ends
-  as their turn starts), Xanatos (3) and Angela (2). Icon's 4 and Merida's 3 strength kill any of them in return:
-  Flash's Resist 1 still leaves 2 or 3 damage against 2 willpower.
-- **Killing either takes two challenges:** Flash and Xanatos for Icon's 6, or two of them for Merida's 5. So two of
-  their three characters would die, and they'd give up their quests for it.
-- **The rest of the risk is small:** Strength of a Raging Fire (3 damage with three characters; about 21% by their
-  turn) plus one challenge would also do it, again for the challenger.
+**Verdict:** **Close call** *(revisited in discussion; the blind pass called leaving Icon and Merida ready a
+mistake)*. Icon shifted onto a Dream Come True that had been in play since turn 5, so she could act at once ([RULE-2](#cite-rule-2)).
+- **The blind pass's case for questing:** both could quest for 5 lore at 1–4 against a board questing for 4 a turn.
+  Their challengers next turn (Flash 3, Xanatos 3, Angela 2; Angela's buff ends as their turn starts) each die to
+  Icon's 4 or Merida's 3, even through Flash's Resist 1, and killing either of yours takes two of them.
+- **stonks 📈's case for staying ready**, relayed by danny: at 1–4 neither side is near 20, so the lore matters less
+  than it looks. Icon's BESPOKE DESIGN is worth more every turn she lives, digging for removal, and two cheap
+  characters for her is a trade they'd happily make. Merida held back keeps the chance of a Windstorm or Three Arrows
+  sweep, and Finest in hand can start challenging later.
+- **The coach's view now:** the blind pass treated "the challenger dies" as a deterrent. But Flash and Xanatos (5 ink)
+  for Icon (a 7-drop and the deck's ramp) is a trade in their favour, and that cost wasn't weighed against 5 lore.
+  Questing makes 5 and leaves them one character; staying ready keeps the engine. Neither is clearly better ([H-6](#cite-h-6),
+  [TEMPO-1](#cite-tempo-1)).
 
-Questing with both, 1 to 6, is better. If they quest instead, the race is about even: you'd need 14 more at 5 a turn,
-they'd need 16 at 4. [H-6](#cite-h-6)'s case for a ready board rests on denying their challengers targets. Here every target kills
-the challenger, so it doesn't apply. Not inking was right: Finest was the only inkable card, and BESPOKE DESIGN inked
-the other one anyway. Confidence: medium.
+Not inking was right: Finest was the only inkable card, and BESPOKE DESIGN inked the other one anyway. Confidence: low.
 
 <a id="turn-10"></a>
 
@@ -229,18 +224,18 @@ for them are worth less than that, and bottoming her would undo the whole shift.
 **What you did:** Drew He Hurled His Thunderbolt. Played Finest for 7, and Icon sang Thunderbolt to banish Flash.
 No quests. BESPOKE DESIGN inked a Tiana – Party Hostess and put another Tiana on top.
 
-**Verdict:** **Good targets, inaccuracy on the quests.**
+**Verdict:** **Good targets; close call on the quests** *(revisited in discussion; the blind pass called the
+quests an inaccuracy)*.
 - **The good part:** Flash was the right target: 2 lore a turn, and Resist that blanks Windstorm. Singing
   Thunderbolt free and hard-casting Finest used the whole turn's ink.
-- **The quests:** singing with Icon and questing with neither is suboptimal because it gives up 2 or 3 lore. Merida
-  could have sung (any character costing 4 or more can) while Icon quested for 3. Or Icon sings, as you did, and
-  Merida quests for 2.
-- **What questing would expose:** their challengers next turn are Xanatos (3), Angela (2) and Hades (3), 8 in all.
-  That kills one of Icon (6) or Merida (5), never both. Icon is exerted by the song anyway, so a second exerted
-  character adds lore without adding a kill. Each challenge into Icon or Merida also costs them the challenger,
-  except Hades against Merida.
-
-The same pattern as [turn 9](#turn-9), smaller. Confidence: medium.
+- **The blind pass's case for questing:** Merida could have sung (any character costing 4 or more can) while Icon
+  quested for 3, or Icon sings, as you did, and Merida quests for 2. Their challengers next turn (Xanatos 3, Angela 2,
+  Hades 3: 8 in all) kill one of Icon (6) or Merida (5), never both.
+- **stonks 📈's case for holding:** Hades changes it. A questing Merida lets Angela trade into her and Hades finish
+  her, and Hades survives on 3 damage, needing another challenge. Holding sets up Finest to challenge next turn, and a
+  tall board keeps them from questing (still 1–4).
+- **The coach's view now:** an exerted Merida is their cheapest kill (Angela only; Hades survives), so her 2 lore
+  probably costs Merida for Angela. That's close. Confidence: low.
 
 <a id="turn-12"></a>
 
@@ -268,6 +263,8 @@ POSE made it 3–4. Icon stayed back, and you didn't ink. BESPOKE DESIGN inked a
   kills Woolter & Jesse too. Keeping her ready and safe is defensible, and questing for 3 to offer that trade is too.
 - **The ink:** with Merida (uninkable) and the second Icon left in hand, inking Icon would have given 10 ink next turn
   instead of 9. A second Icon is the hand's least useful card, since shifting her onto the first gains nothing.
+  *(Revisited in discussion:)* holding was the better side of it. From 7 ink with Icon in play, inking is optional, and
+  BESPOKE DESIGN inked a card anyway.
 
 What it exposes: Finest is exerted with 4 willpower left. Woolter & Jesse (6), or Xanatos and Shadow together (5), can
 kill it, and either way Finest's 5 kills what challenges it.
@@ -291,12 +288,11 @@ Giant Fairy). 3–4.
 **What you did:** Drew Khan Industries – Greenway Landmark. Played the second Unintentional Icon for 7 of your 9 ink,
 didn't ink, and Tiana stayed back. BESPOKE DESIGN inked a Drake Mallard.
 
-**Verdict:** **Inaccuracy: the missed ink.** Not inking is suboptimal for the second turn running. The hand held three
-inkable cards you couldn't all cast for turns (Khan Industries, Finest, Icon), and the deck's top end always
-outruns its ink. Inking Finest or Icon makes 10, and then:
-- **Khan Industries and Merida (5 + 5)** use all 10. Khan pays 2 lore at each of your turns from next turn. Next turn
-  (11 ink) moves Tiana and Merida there for 4, where nothing can challenge them, with 7 left for Finest.
-- **Your line spends 7 of 9.** Icon is a fine card here, but it leaves 2 ink unused and Khan Industries a turn later.
+**Verdict:** **Good** *(revisited in discussion; the blind pass called the missed ink an inaccuracy)*. From 7 ink
+with Icon in play, inking is optional: BESPOKE DESIGN inks a card every turn, 9 ink already casts anything in the deck,
+and each card held is a threat for later ([INK-3](#cite-ink-3)). The blind pass's line inked Finest or Icon to play Khan Industries and
+Merida (10 ink). That spends a threat to land Khan, and in this deck Khan Industries is a closer, or a free play from
+Tiana, not a turn-8 play. The second Icon is a 3-lore quester that digs.
 
 Keeping Tiana ready was right: Demona (5 strength, dry next turn) kills an exerted Tiana (5 willpower).
 
@@ -320,19 +316,18 @@ Bell – Giant Fairy (Shift 4 onto the Curious Fairy) would deal 1 to each. Conf
 **What you did:** Drew a Terror. Played Finest for 7, then Terror (3, with Finest counting as a Darkwing Duck)
 banished Dumbo. Icon stayed back, and you didn't ink. BESPOKE DESIGN inked a Goliath.
 
-**Verdict:** **Mistake: Icon didn't challenge the exerted Demona.** Leaving Demona alive is suboptimal because Icon
-kills her for free: Icon's 4 against her last 2 willpower, and Demona's 5 leaves Icon on 1. Demona was their best
-card on the board: 2 lore a turn and 5 strength.
-- **With her gone,** their questers are Tinker Bell – Curious Fairy and Shere Khan: 2 a turn against your Finest and
-  Icon.
-- **What it exposes:** Icon is exerted on 1 willpower, so Shere Khan (4) kills her next turn. Icon's 4 kills Shere Khan
-  in return (2 willpower). That's Demona and Shere Khan for Icon, the best trade on the board.
-- **Your line keeps Icon healthy and ready,** and nothing of theirs can reach a ready character without another NEW
-  INCENTIVE. But Demona quests for 2 a turn and stays a 5-strength challenger for every quest you make. The race was 3–4.
+**Verdict:** **Close call** *(revisited in discussion; the blind pass called not challenging Demona a mistake)*.
+- **The blind pass's case:** Icon kills the exerted Demona (her last 2 willpower against Icon's 4) and survives on 1.
+  With Demona gone their questers make 2 a turn, and if Shere Khan then kills Icon, Icon's 4 kills him too: Demona and
+  Shere Khan for Icon.
+- **stonks 📈's case for holding:** a ready Icon keeps her triggers coming, and card velocity is what finds the
+  deck's biggest threats; letting them trade into her gives that up. They had no draw engine on board, no hand and 4
+  lore, so sitting back to maximise value was safe.
+- **The coach's view now:** the kill was free this turn, but it left the engine on 1 willpower, and Demona on 2
+  willpower stays easy prey for Finest or a Terror. Both lines are reasonable. Confidence: low.
 
 The rest was right. Terror on Dumbo removed the Evasive card engine nothing of yours could challenge. Finest counting
-as a Darkwing ([CR 5.2.6.1](#cite-cr-5-2-6-1)) made Terror deal 3. Holding Khan Industries uninked for next turn's Khan and Merida (10)
-was fine. Confidence: medium.
+as a Darkwing ([CR 5.2.6.1](#cite-cr-5-2-6-1)) made Terror deal 3. Holding Khan Industries uninked was fine.
 
 <a id="turn-18"></a>
 
@@ -405,54 +400,62 @@ Minnie and Launchpad for them too. Strength of a Raging Fire (about 28%) deals 4
 Merida. Then roycelikerolls conceded at 4–13.
 
 ## Lessons
-1. **Quest when every challenge into you costs them the challenger.** On turns [9](#turn-9) and [11](#turn-11) their
-   challengers had 2 willpower against Icon's 4 and Merida's 3 strength. Killing either took two challenges, two dead
-   characters and two lost quests. Staying ready there gave away 5 and then 2–3 lore. Game 2's lesson, "one big
-   character a turn gets picked off", is about challengers that survive, like Woolter & Jesse at 6 against 4
-   willpower. Turn [13](#turn-13) was that case, and holding Icon back there was reasonable.
-2. **Take free kills first.** An exerted, damaged threat you can kill without losing the challenger is the best play
-   on the board: Demona on turn [17](#turn-17).
-3. **Ink every turn.** Big Ramp's hand always holds more top end than its ink can cast. Skipping the ink step (turns
-   [13](#turn-13) and [15](#turn-15)) costs an ink a turn, and on turn 15 it cost Khan Industries and Merida together.
-4. **Khan Industries answers Shere Khan.** Characters at it can't be challenged at all, so NEW INCENTIVE can't reach
-   them. Moving Icon there on turn [19](#turn-19) kept the best quester safe while the rest raced. That's also why
-   inking it on turn [1](#turn-1) was the instructive call.
+Revisited in discussion with stonks 📈 (relayed by danny); the blind pass's versions said the opposite of 1 and 3.
+1. **Weigh an engine's next triggers against the lore a quest makes.** Two cheap challengers for Unintentional Icon is
+   a trade they want, even if both die. Early, at 1–4, Icon's card velocity matters more than the race
+   ([turns 9](#turn-9), [11](#turn-11) and [17](#turn-17)).
+2. **A tall, ready board stops them questing.** It forces them to spend Peter Pan's Shadow or Shere Khan to reach it,
+   and if they don't find those, it keeps working.
+3. **From 7 ink with Icon in play, inking is optional.** Hold threats; BESPOKE DESIGN inks anyway ([turns 13](#turn-13)
+   and [15](#turn-15)).
+4. **Khan Industries is a closer.** Free from Tiana on [turn 19](#turn-19), it kept Icon safe while both questers
+   scored; as an early play it's slow ([turn 1](#turn-1)).
 
-## Proposed knowledge-base updates (applied after discussion)
-- **Strategy, [H-6](#cite-h-6) (a ready board against an exert-and-challenge deck): a limit, as evidence against.** It holds when
-  their challengers survive the exchange. When your characters' strength kills every challenger that hits them (Icon
-  and Merida against 2-willpower Flash, Xanatos and Angela in 01a16039 turns 9 and 11), staying ready only gives away
-  lore.
-- **Meta, the Sapphire/Steel notes (Big Ramp's coaching points):**
-  - Khan Industries' HIGH SECURITY stops Shere Khan's NEW INCENTIVE challenges too. Against Shere Khan lists, keep it
-    out of the inkwell and move the best quester there.
-  - Tiana discarding Khan Industries, then 2 ink to move a quester there, is a one-turn setup at 9 ink (turn 19).
-- **Meta, the Amethyst/Steel notes (Midrange against Big Ramp), roycelikerolls game 3:**
-  - **More of the list:** Hades ×2, Woolter & Jesse ×2, Demona – Scourge ×2, Tinker Bell – Curious Fairy ×2 and Giant
-    Fairy ×2, Shere Khan (at least three over the match), Dumbo, Merlin, Flash, Angela, Xanatos and Toulouse.
-  - **What they did:** challenged Khan Industries down with both Shere Khans (turn 20), and used Demona's exert-all
-    with NEW INCENTIVE to set up challenges.
+## Knowledge-base updates (applied 2026-11-02, after discussion)
+- **Strategy, [H-6](#cite-h-6) (a ready board against an exert-and-challenge deck): evidence for,** from the player's reasoning on
+  turns 9, 11 and 17. The blind pass had proposed this game as evidence against; discussion reversed it.
+- **Meta, the Sapphire/Steel notes:** the player's rules (Icon's card velocity, inking optional from 7 with Icon, a tall
+  ready board, Khan Industries as a closer), and the one-turn Tiana-and-Khan setup at 9 ink from turn 19. The blind
+  pass's proposal to keep Khan out of the inkwell against Shere Khan lists was dropped.
+- **Meta, the Amethyst/Steel notes (Midrange against Big Ramp), roycelikerolls game 3:** more of the list (Hades ×2,
+  Woolter & Jesse ×2, Demona – Scourge ×2, Tinker Bell – Curious Fairy ×2 and Giant Fairy ×2, Shere Khan, Dumbo,
+  Merlin, Flash, Angela, Xanatos, Toulouse); Shadow and Shere Khan spent to reach the ready board; both Shere Khans
+  challenging Khan Industries down (turn 20).
+- **Method:** the decision method now values an engine's future turns when a line exposes it, and notes that inking
+  is optional past about 7 ink with a ramp engine in play.
 
 ## Hindsight
 Doesn't change the verdicts above.
 - **Staying ready didn't keep Merida or Tiana safe.** Peter Pan's Shadow exerted Merida for two challenges (turn 12),
-  and Shere Khan let Demona hit the ready Tiana (turn 16). Against this list, "ready" was never fully safe.
-- **The turn the game turned was 19:** Tiana found the Terror that killed Demona, Khan Industries came free, and 5
+  and Shere Khan let Demona hit the ready Tiana (turn 16). But staying ready forced them to spend those cards to do
+  it (stonks 📈): without them, the board keeps working, and if you don't force them out, they're saved for a later
+  turn.
+- **The coach saw turn 19 as the turn:** Tiana found the Terror that killed Demona, Khan Industries came free, and 5
   lore took you from 3 to 8. On turn 21 the two Shere Khans died, and they had no way to stop 7 lore a turn.
-- **Their turn 18 was odd:** Shere Khan's NEW INCENTIVE went on Demona, but no challenge followed.
+  stonks 📈 puts it at turn 11, 95% or better already: a board as good as theirs or better, no cards in their hand,
+  and two significant characters to come.
+- **Their turn 18:** Shere Khan's NEW INCENTIVE went on Demona, but no challenge followed. The blind pass called that
+  odd; it isn't (stonks 📈). Demona on 2 willpower would die challenging anything of yours without banishing it, so
+  CORNER THE MARKET's ink drop wouldn't fire either. They needed to build a board that answers your threats.
 
 ## The coach's errors
-Errors the coach caught in its own work. The user may add more in discussion. None changed a verdict.
+Errors the coach caught in its own work, and three found in discussion, which changed five verdicts.
 
 | When | Error | How it was caught | How it won't happen again |
 |---|---|---|---|
-| Turns 17 and 21 | Cut the brief's card-text section (cards already read, the new ones read from single-card sources), against the rule to read briefs whole | The coach, writing up this review | The same proposed hook as in game 2: refuse any command piping `tools/brief.py` into `sed`, `grep`, `awk`, `head` or `tail` (needs the user's OK) |
+| Turns 17 and 21 | Cut the brief's card-text section (cards already read, the new ones read from single-card sources), against the rule to read briefs whole | The coach, writing up this review | Done (2026-11-02): a hook (`.claude/hooks/guard_brief.py`) refuses any command that pipes or redirects `tools/brief.py` |
+| [Turns 9](#turn-9), [11](#turn-11), [17](#turn-17) | Judged a ready Icon and Merida as giving away lore, since every challenger into them would die. Didn't weigh Icon's future triggers, or that two cheap characters for her is a trade they want, and overweighted an early race at 1–4 | stonks 📈, in discussion (relayed by danny) | Done (2026-11-02): the decision method's evaluation section values an engine's future turns when a line exposes it; the Big Ramp notes record Icon's card velocity |
+| [Turns 13](#turn-13), [15](#turn-15) | Called skipping the ink a mistake ("ink every turn"), against [INK-3](#cite-ink-3)'s own caveat: from 7 ink with Icon inking every turn, a threat in hand is worth more | stonks 📈, in discussion | Done (2026-11-02): the decision method's ink axis says inking is optional past about 7 ink with a ramp engine; the Big Ramp notes have the player's rule |
+| [Turns 1](#turn-1), [15](#turn-15) | Valued Khan Industries as an early play and an answer to Shere Khan; in this deck it's a closer or a free play from Tiana | stonks 📈, in discussion | Done (2026-11-02): the Big Ramp notes record Khan Industries' role, and the decision method's recurring errors list it |
 
 ## Open questions
-- **Turns 9 and 11:** what made you keep Icon and Merida back? The coach found every challenge into them would cost
-  roycelikerolls the challenger. Was it game 2's Shere Khans, or something else?
-- **Turn 17:** did you consider Icon challenging the damaged Demona?
-- **Turns 13 and 15:** were the skipped inks deliberate (holding cards), or missed?
+Closed when the review was finalised (2026-11-02), with stonks 📈's answers relayed by danny.
+- **Turns 9 and 11:** staying ready kept Icon's triggers coming and denied them trades; at 1–4 the race didn't matter
+  yet, and Hades on board on turn 11 made a questing Merida a cheap kill. Both moved to close calls.
+- **Turn 17:** keeping Icon ready for more triggers beat letting them trade into her, with their hand empty and 4
+  lore. Moved to a close call.
+- **Turns 13 and 15:** deliberate. From 7 ink with Icon, inking is optional, and holding the cards keeps their value.
+  Turn 15 moved to good.
 
 ## Citations
 Copies of the coach's knowledge base cited above, as they stood when they were cited (the private repository's commit and date are given with each). They don't change when the knowledge base does.
@@ -548,3 +551,11 @@ Copies of the coach's knowledge base cited above, as they stood when they were c
 >     (3 to 7 cards) in these games came partly from the player's first games on the deck, so they aren't a guide.
 >   - **Judge the plan from the hand, then the matchup:** a coached line should say how this hand gets from its early
 >     turns to Merida, the sweep and the 3-lore finishers, rather than follow a stock sequence.
+
+<a id="cite-tempo-1"></a>**TEMPO-1**: strategy principle, `kb/strategy/principles.md` at `4be2094` (2026-11-02), working tree
+
+> - **TEMPO-1. Tempo is how much freedom you leave the opponent, not how fast you play.** A play that forces the opponent to spend their turn answering it has stolen part of their turn. *Ask: "If I play this, what does my opponent have to do next?"* `[MCL ch.1]` · baseline
+
+<a id="cite-ink-3"></a>**INK-3**: strategy principle, `kb/strategy/principles.md` at `4be2094` (2026-11-02), working tree
+
+> - **INK-3. Usually ink every turn, but not automatically.** Keeping one more playable card can beat one more ink. Missing ink with an expensive hand can leave you permanently behind. `[MCL ch.4]` · baseline
