@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Status** | draft, for discussion |
+| **Status** | **final** (2026-11-02; no verdict changed. stonks 📈's rules for the draw, relayed by danny, answer the open questions; he didn't comment on this game) |
 | **Replay** | `01a1697e-e338` (`python3 tools/brief.py 01a1697e --turn N`) · [duels.ink viewer](https://duels.ink/replay/01a1697e-e339-7703-a3c7-77e6c906c4af?step=0) |
 | **Format** | Core Constructed (from game 1 of the match), best-of-three, game 2. Set 14 era: inks revealed before the coin toss |
 | **Decks** | stonks 📈: Sapphire/Steel Big Ramp with the Darkwing package ([the coach's notes on it](#cite-kb-meta-archetypes-sapphire-steel-big-ramp-with-the-darkwing-package-how-to-play-it)). AkatsukiCap: Emerald/Steel **Midrange #1**, known from game 1 |
@@ -17,7 +17,7 @@
 - **Good:** turns [2](#turn-2), [6](#turn-6), [8](#turn-8) and [12](#turn-12), all the coach's lines or close to them.
 - **Close calls:**
   - The [pre-game](#turn-0): a big mulligan the sim supports, but it gave up Merida and Windstorm.
-  - [Turn 4](#turn-4): Terror on Tod rather than Drake first.
+  - [Turn 4](#turn-4): Terror on Tod rather than Drake first, leaning to your line after discussion.
 - **Inaccuracies or worse:** none.
 - **Unwinnable from:** [turn 14](#turn-14). They needed 4 with 6 lore of questers, and at most two could be removed.
 
@@ -62,6 +62,11 @@ Merida, Launchpad and He Hurled His Thunderbolt.
 - **Your keep of one** made 3.62 and 5.6 at the same ink (9.36).
 - **Keeping five** (sending Thunderbolt and a Khan) made 3.39 and 5.1.
 
+*In discussion:* stonks 📈's rules for the draw (from his other games) back the big mulligan: interaction first, and
+Windstorm is a keep only with a Terror or Three Arrows already in hand, which this seven didn't have. By the same rules,
+Priscilla is usually a send-back on the draw too, so the one card kept is the one they'd question. The verdict stays a
+close call.
+
 The seven had no play before Launchpad on turn 4 and three uninkable cards. Against a deck of cheap Evasive questers,
 that's slow. The price is Merida and Windstorm, the deck's sweep, which is exactly what this matchup's 1- to
 3-willpower Evasives fear: Windstorm deals 3 to each Evasive, 5 with Merida. Keeping those two and Priscilla and
@@ -105,6 +110,10 @@ control deck's hand, neither of which this matchup asks for early. Either is fin
 Vixey: 2 lore a turn and Evasive, so out of reach of every challenge. Your Terror on Tod kills the cheaper quester
 now, and also the card that makes more Vixeys cost 1 less. It leaves Vixey for your second Terror once a Darkwing is
 in play. Over the next two turns both lines let through about the same lore. Inking Goliath was right here.
+
+*In discussion:* stonks 📈's rule for the draw, from another game, leans it your way: on the draw, interact and limit
+theirs by killing their characters now, rather than developing first. The verdict stays a close call, leaning to Terror
+on Tod.
 
 <a id="turn-5"></a>
 
@@ -227,7 +236,7 @@ Elinor, Flash and Angela still quest for exactly 4.
 ## Lessons
 1. **Against Emerald/Steel's Evasive questers, your answers are actions.** Terror, Three Arrows, Windstorm (3 to each
    Evasive, 5 with Merida) and Thunderbolt, since no challenger of yours can reach Vixey, Mushu, White Rabbit or
-   Pegasus. Weigh keeping Merida and Windstorm in the mulligan above early tempo ([pre-game](#turn-0)).
+   Pegasus. In the mulligan, the player keeps Windstorm only with a Terror or Three Arrows ([pre-game](#turn-0)).
 2. **Angela's Resist +2 lasts only until their next turn.** Waiting a turn to Terror the shielded Vixey ([turn
    8](#turn-8)) was right.
 3. **An exerted Bodyguard takes every challenge.** Use your cheapest challenger on it, as Drake did on Woolter & Jesse
@@ -235,14 +244,14 @@ Elinor, Flash and Angela still quest for exactly 4.
 4. **Elinor – Renowned Diplomat adds a lore, a card and a ping each turn with three exerted characters.** Count her
    in the race, and kill a quester to turn her off.
 
-## Proposed knowledge-base updates (applied after discussion)
+## Knowledge-base updates (applied 2026-11-02, after discussion)
 - **Meta, the Emerald/Steel notes (Midrange against Big Ramp), AkatsukiCap game 2:**
   - **The list:** Tod ×2, Vixey, Woolter & Jesse, Angela ×2, Elinor, Angel, Flash, Bobby Zimuruski ×2, Max Goof and
     White Rabbit (inked).
   - **How it played:** Angela's Resist +2 kept Vixey safe from Terror for a turn. Angel's GOOD AIM took the Crime
     Fighter that Finest would have shifted onto. Elinor's trigger made 2 of their 16 lore.
-- **Meta, the Sapphire/Steel notes (Big Ramp's coaching points), low confidence:** against Emerald/Steel, the
-  Merida-and-Windstorm sweep is worth keeping in a mulligan even when the rest of the hand is slow.
+- **Not applied:** the proposal to keep the Merida-and-Windstorm sweep in a slow mulligan against Emerald/Steel. The
+  player's rules for the draw, now in the Big Ramp notes, keep Windstorm only with a Terror or Three Arrows.
 
 ## Hindsight
 Doesn't change the verdicts above.
@@ -252,16 +261,18 @@ Doesn't change the verdicts above.
   Drake did the work, and the 7-drops arrived when the race was nearly over.
 
 ## The coach's errors
-Errors the coach caught in its own work. The user may add more in discussion. None changed a verdict.
+Errors the coach caught in its own work. None changed a verdict.
 
 | When | Error | How it was caught | How it won't happen again |
 |---|---|---|---|
-| Turns 4, 6, 10 and 12 | Cut parts of the brief with `awk`, against the rule to read briefs whole | The coach, writing up this review | The same proposed hook as in the other four reviews (needs the user's OK) |
-| Turn 14 | Read the turn's plan brief and its log in one command, so the line played was in view while planning. The verdict rests only on board arithmetic | The coach, writing up this review | The proposed hook also refuses a `--plan` brief and a log of the same turn in one command |
+| Turns 4, 6, 10 and 12 | Cut parts of the brief with `awk`, against the rule to read briefs whole | The coach, writing up this review | Done (2026-11-02): a hook (`.claude/hooks/guard_brief.py`) refuses any command that pipes or redirects `tools/brief.py` |
+| Turn 14 | Read the turn's plan brief and its log in one command, so the line played was in view while planning. The verdict rests only on board arithmetic | The coach, writing up this review | Done (2026-11-02): the same hook refuses a brief run next to `tools/replay.py` or a second brief in one command |
 
 ## Open questions
-- **The mulligan:** would you keep Merida and Windstorm against this deck, even with a slow start?
-- **Turn 4:** Terror on Tod straight away, or Drake Mallard first to set up Terror on Vixey?
+Closed when the review was finalised (2026-11-02). stonks 📈 didn't comment on this game; his rules for the draw from
+the other reviews (relayed by danny) answer both.
+- **The mulligan:** Windstorm goes back without a Terror or Three Arrows, so the big mulligan fits his rules.
+- **Turn 4:** on the draw, kill their characters now: Terror on Tod.
 
 ## Citations
 Copies of the coach's knowledge base cited above, as they stood when they were cited (the private repository's commit and date are given with each). They don't change when the knowledge base does.
