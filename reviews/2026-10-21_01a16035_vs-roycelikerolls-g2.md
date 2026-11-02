@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Status** | draft, for discussion |
+| **Status** | **final** (2026-11-02; the pre-game revisited in discussion, on stonks 📈's feedback relayed by danny) |
 | **Replay** | `01a16035-5f93` (`python3 tools/brief.py 01a16035 --turn N`) · [duels.ink viewer](https://duels.ink/replay/01a16035-5f94-7a8e-afb0-be0d7bc28ed4?step=0) |
 | **Format** | Core Constructed (from game 1 of the match), best-of-three, game 2. Set 14 era: inks revealed before the coin toss |
 | **Decks** | stonks 📈: Sapphire/Steel Big Ramp with the Darkwing package ([the coach's notes on it](#cite-kb-meta-archetypes-sapphire-steel-big-ramp-with-the-darkwing-package-how-to-play-it)). roycelikerolls: Amethyst/Steel **Midrange**, known from game 1 |
@@ -12,12 +12,11 @@
 | **Chosen how** | Sent by danny, the coach's user, with stonks 📈's other games of the day; the coach picked five to review and studied the rest. **The coach could work out this game's result in advance**: it studied game 1 (a win for stonks 📈, so a fair look at an earlier game), and a game 3 exists, so this game was a loss. Verdicts are guarded against outcome bias |
 
 ## Summary
-- **Inaccuracies:**
-  - The [pre-game](#turn-0): a mulligan of six from a hand with a plan.
-  - [Turn 6](#turn-6): Priscilla played into a ready Pepita, whose Challenger exactly kills her the turn she enters
-    exerted.
-- **Good play:** [turn 14](#turn-14), Cinderella – Unintentional Icon before Finest. It used all 7 ink and started her
-  ramp, with the cheap Shift still in hand.
+- **Inaccuracy:** [turn 6](#turn-6), Priscilla played into a ready Pepita, whose Challenger exactly kills her the turn
+  she enters exerted. You agreed in discussion.
+- **Close call:** the [pre-game](#turn-0), a mulligan of six on the draw (an inaccuracy until discussion).
+- **Good play:** [turn 14](#turn-14), Cinderella – Unintentional Icon before Finest: her BESPOKE DESIGN starts filtering
+  the deck a turn sooner, with the cheap Shift still in hand.
 - **Good:** turns [2](#turn-2), [4](#turn-4), [8](#turn-8), [10](#turn-10) and [12](#turn-12).
 - **Unwinnable from:** [turn 16](#turn-16). They were on 9 with seven characters questing for 8, and nothing of
   yours could challenge or remove anything that turn. Both concession turns' plays were the best left.
@@ -70,21 +69,20 @@ Ramp:
 Priscilla – Efficient Clerk, the other Darkwing, Windstorm, Goliath – Clan Leader and Khan Industries – Greenway
 Landmark.
 
-**Verdict:** **Inaccuracy.** Sending back six from this hand is suboptimal because it already had the deck's early
-plan: two 1-drops, Priscilla on turn 3 (ramp and card selection from her first quest), Dream Come True on turn 4 (a
-Princess, so her end-of-turn ink-and-draw fires that turn), and Khan Industries at 5. Six of the seven were
-inkable. Keeping all seven, or sending back only Goliath, is better:
-- **The sim** (`mulligan.py`, 1,500 deals) favours the keep on every measure. Ink by turn 4 was 9.59 against your
-  9.32, play turns 4.00 against 3.91, lore by turn 4 7.2 against 6.4, and characters 4.3 against 3.8. Interaction was
-  100% against 93%.
-- **What the sim can't weigh:** the mulligan gave up Priscilla and Khan Industries, pieces the deck has to find later,
-  for random cards. The notes on this deck found early Priscilla in most of its wins against Emerald/Steel
-  ([the coach's notes](#cite-kb-meta-archetypes-sapphire-steel-big-ramp-with-the-darkwing-package-how-to-play-it)).
-- **The case for sending some back:** Windstorm is weak against Flash's Resist, and Goliath isn't a card for this
-  matchup. Sending back Goliath alone (keep 6) sims the same as keeping all seven.
+**Verdict:** **Close call, leaning to your mulligan** *(revisited in discussion; the blind pass called it an
+inaccuracy)*. The blind pass saw a plan in the seven: two 1-drops, Priscilla on turn 3, Dream Come True on turn 4 and
+Khan Industries at 5. stonks 📈 explained, relayed by danny, why that plan doesn't work on the draw:
+- **Priscilla on the draw** lands after their 1-, 2- and 3-drops, exerted and with 0 strength, and their board almost
+  always kills her for free before she quests.
+- **Dream Come True** on the draw is only good with Marie to bring her a turn early, and there was no Marie.
+- **Khan Industries and Goliath** come later, so they can go back.
+- **The second Crime Fighter** isn't enough on its own: better to send more back to find Terror or Three Arrows.
+- **Windstorm** is a toss-up: keep it with a Terror or Three Arrows already in hand.
 
-[MULL-1](#cite-mull-1) and [MULL-4](#cite-mull-4) apply, and the coach's notes on this deck say to build from the hand you have. Confidence: medium. The
-gap the sim shows is modest, and the deck's late game decides more than turns 1–4.
+That takes the blind pass's reasons apart. The sim (`mulligan.py`, 1,500 deals) still favoured keeping all seven
+(lore by turn 4 7.2 against 6.4, characters 4.3 against 3.8), but much of that lead is Priscilla's first quest, which on
+the draw she rarely lives to make. Without it the two are close, and your mulligan looks for the early interaction the
+draw needs. [MULL-3](#cite-mull-3), [H-5](#cite-h-5). Confidence: low.
 
 <a id="turn-1"></a>
 
@@ -162,12 +160,17 @@ gone, and puts 1 lore on the board. What it exposes:
   trade that clears the way for Priscilla.
 - **Both Drakes** have Ward, so Strength of a Raging Fire, David Xanatos and Angel can't target them. Only a Peter
   Pan's Shadow (about 35% by their turn) exerts the other.
+- **The ink:** Khan Industries, keeping Priscilla, Finest and the Icon *(added in discussion; the blind pass didn't
+  say)*. Khan comes later in this deck, as a closer or a free play from Tiana.
 - **The cost:** 1 ink unused, and Priscilla's ramp starts a turn later.
 
 The case for your line: if Priscilla survives, her first quest next turn ramps you to 5 a turn early (Finest's Shift,
 Merida or Khan Industries on turn 8). The early-Priscilla pattern in the coach's notes points the same way. But that
 needs them to pass up a free kill. They did hold back last turn, on 2 ink with 5 cards, so it's not impossible.
 [RULE-1](#cite-rule-1). Confidence: medium-low.
+
+*In discussion:* stonks 📈 agreed. Drake Mallard and a quest to bait Pepita into the trade, with Khan Industries inked,
+and Priscilla a turn late if their turn 3 is inefficient (a 3-cost 3/x or worse). The verdict stands.
 
 <a id="turn-7"></a>
 
@@ -285,6 +288,11 @@ What it exposes: Icon is ready with 6 willpower. A third Shere Khan (about 16%) 
 Demona's 5 isn't enough alone. A second Demona – Scourge of the Wyvern Clan (about 23%) exerts her, and then Demona
 and both Shere Khans together (13) kill her. Strength of a Raging Fire with their five characters deals 5.
 
+*In discussion:* stonks 📈's reason was card velocity, not ink. Icon and Finest add about the same to the race, so
+Icon first gets BESPOKE DESIGN going to find the next thing. This turn shows it: it inked a Drake Mallard and put
+Finest on top, so next turn's 8 ink plays Finest and the Crime Fighter, ready to Shift the other Finest the turn after.
+And if Icon survives, each further trigger digs again. The verdict stands, for that reason.
+
 <a id="turn-15"></a>
 
 ### Turn 15: their turn
@@ -342,10 +350,13 @@ That leaves six lore of questers against the 3 they needed.
 3. **Add up the pumps, not just the base strength.** Pepita and Woolter & Jesse have Challenger +2, and Angela gives
    Challenger +2 and Resist +2 to anything. The coach's own exposure note on turn 14 missed Angela (see The coach's
    errors).
-4. **A hand with a plan is worth keeping** ([MULL-1](#cite-mull-1), [MULL-4](#cite-mull-4)). Two 1-drops, Priscilla, Dream Come True and Khan
-   Industries was the deck's early game. The mulligan gave up the pieces it later needed.
+4. **On the draw, a plan has to survive their early board** *(revisited in discussion; the blind pass said "a hand
+   with a plan is worth keeping")*. Priscilla, Dream Come True without Marie, and Khan Industries are slow on the draw;
+   look for Terror, Three Arrows and the Darkwings instead ([pre-game](#turn-0)).
+5. **Unintentional Icon first, for card velocity.** Her BESPOKE DESIGN filters the deck every turn she lives
+   ([turn 14](#turn-14)).
 
-## Proposed knowledge-base updates (applied after discussion)
+## Knowledge-base updates (applied 2026-11-02, after discussion)
 - **Meta, the Amethyst/Steel notes (Midrange against Big Ramp), roycelikerolls's list from game 2:**
   - **The list:** Shere Khan ×3, Angela – Night Warrior ×2, Pepita ×2, Tinker Bell – Curious Fairy ×2, Woolter &
     Jesse, Peter Pan's Shadow, Demona – Scourge, Cheshire Cat, Diablo – Stone Servant, Maleficent – Exultant
@@ -359,6 +370,10 @@ That leaves six lore of questers against the 3 they needed.
     Industries.
   - Against Shere Khan, count their best challenge, with pumps, before landing a key piece.
 - **Strategy:** none new. Turn 6 is evidence for lesson 1, which belongs in the deck's notes rather than a principle.
+- **From discussion (stonks 📈, relayed by danny):** the Big Ramp notes gained the player's rules for the draw and for
+  Unintentional Icon's card velocity; [H-5](#cite-h-5) gained this mulligan as evidence for.
+- **Method:** a suggested line now names its ink (the decision method's verdict section, and the review template), and
+  the mulligan section checks that a hand's plan survives the opponent's first turns on the draw.
 
 ## Hindsight
 Doesn't change the verdicts above.
@@ -370,20 +385,24 @@ Doesn't change the verdicts above.
   Industries: a playable hand, but with the deck's 7s instead of its turn-3 and turn-4 plays.
 
 ## The coach's errors
-Errors the coach caught in its own work. The user may add more in discussion. None changed a verdict.
+Errors the coach caught in its own work, and two found in discussion; one changed the pre-game verdict.
 
 | When | Error | How it was caught | How it won't happen again |
 |---|---|---|---|
 | Turn 2 | Read turn 3 in the same command as turn 2, before writing turn 2's section. This was the same error as in game 3 against MFork, made after its fix (a warning) was in place. The warning printed, but too late | The coach, from the warning | `tools/brief.py` now refuses to print a turn while any earlier turn of yours has no section in the draft. `--draft-ok` skips the check outside a blind pass |
-| Turns 2–14 | Cut each brief's "Knowledge base notes on the cards in view" with `sed` ranges, against the rule to read briefs whole. An audit of the notes cut found none that changes a verdict | The coach, when Angela's note pointer turned up on turn 14 | A rule wasn't enough. Proposed: a hook that refuses any command piping `tools/brief.py` into `sed`, `grep`, `awk`, `head` or `tail` (needs the user's OK, as it changes the project's settings). Turns 16 and 18 were read whole |
+| Turns 2–14 | Cut each brief's "Knowledge base notes on the cards in view" with `sed` ranges, against the rule to read briefs whole. An audit of the notes cut found none that changes a verdict | The coach, when Angela's note pointer turned up on turn 14 | A rule wasn't enough. Done (2026-11-02): a hook (`.claude/hooks/guard_brief.py`) refuses any command that pipes or redirects `tools/brief.py`. Turns 16 and 18 were read whole |
+| [Pre-game](#turn-0) | Called the mulligan an inaccuracy for giving up Priscilla, Dream Come True and Khan Industries, without asking whether that plan survives on the draw | stonks 📈, in discussion (relayed by danny) | Done (2026-11-02): the decision method's mulligan section checks that a hand's plan survives the opponent's first turns on the draw, and the Big Ramp notes carry the player's keep rules |
+| [Turn 6](#turn-6) | Suggested Drake Mallard over Priscilla without saying what to ink | stonks 📈, in discussion (relayed by danny) | Done (2026-11-02): the decision method's verdict section and the review template require every suggested line to name its ink |
 | Turn 14 | What Icon exposed: "Demona's 5 isn't enough alone." It missed Angela – Night Warrior's Challenger +2, which with a Shere Khan makes 7 against her 6. The verdict stands: Finest's 7 willpower falls to the same 7 | The coach, on reading turn 15 | Angela wasn't tagged as a combat trick. `tools/meta.py` now tags "give chosen character Challenger +N", so the brief lists her with the chance they hold one |
 | Turn 18 | The brief's options listed only Finest itself as a Shift target for the second Finest, not the Crime Fighter. Finest is also named Darkwing Duck ([CR 5.2.6.1](#cite-cr-5-2-6-1)) | The coach, while planning the turn | Fixed in `tools/brief.py`: a name with "&" counts as each of its names when it looks for Shift targets |
 
 ## Open questions
-- **The mulligan:** what were you looking for when you sent six back? It's the second near-full mulligan the coach has
-  seen from you (game 3 against MFork was the other).
-- **Turn 6:** did you expect Pepita to challenge Priscilla, or was she bait for Drake Mallard's trade?
-- **Turn 14:** was ink efficiency your reason for playing Icon before Finest, or something else?
+Closed when the review was finalised (2026-11-02), with stonks 📈's answers relayed by danny.
+- **The mulligan:** sending six is most likely correct on the draw. Priscilla doesn't work there, Khan Industries and
+  Goliath come later, a second Crime Fighter isn't enough, Windstorm is a toss-up without Terror or Three Arrows, and
+  Dream Come True needs Marie. The verdict moved to a close call.
+- **Turn 6:** Priscilla was the wrong play; Drake Mallard and a quest to bait Pepita, with Khan Industries inked.
+- **Turn 14:** card velocity. Icon first digs for the next thing, and the Finest she put on top came down next turn.
 
 ## Citations
 Copies of the coach's knowledge base cited above, as they stood when they were cited (the private repository's commit and date are given with each). They don't change when the knowledge base does.
@@ -480,3 +499,74 @@ Copies of the coach's knowledge base cited above, as they stood when they were c
 >     (3 to 7 cards) in these games came partly from the player's first games on the deck, so they aren't a guide.
 >   - **Judge the plan from the hand, then the matchup:** a coached line should say how this hand gets from its early
 >     turns to Merida, the sweep and the 3-lore finishers, rather than follow a stock sequence.
+
+<a id="cite-mull-3"></a>**MULL-3**: strategy principle, `kb/strategy/principles.md` at `4be2094` (2026-11-02), working tree
+
+> - **MULL-3. The right keep depends on the matchup.** Early interaction against aggro; pressure, draw and engines against slow decks. The mulligan is the first expression of your role. In the Set 14 era the opponent's inks are known before the mulligan (RULE-8), so this applies from game 1 of a match. `[MCL ch.12]` · baseline
+
+<a id="cite-h-5"></a>**H-5**: hypothesis, `kb/strategy/hypotheses.md` at `4be2094` (2026-11-02), working tree
+
+> ### H-5. A hand that can't make an opening curve can be worth a deep mulligan, even with a decent core
+> - **Claim:** if the opening seven can't spend its ink on turns 1–4 (no early character, or no 1-drop with
+>   uninkables and clumped 4-drops), a deep or full mulligan for an opening curve can beat keeping a reasonable core
+>   (e.g. two 3-drops and card draw).
+> - **Why:** mulligan replacements come from the cards *not* in your hand (CR 2.2.2, draw before shuffling). A seven
+>   holding none of your cheap characters leaves all of them in the redraw pool, so the new cards are richer in
+>   exactly what the hand lacks. Keeping part of the hand also keeps its cards' share of the next draws away from
+>   the cheap ones.
+> - **Evidence for:** 01a14574 (vs Shinobana, game 2), pre-game. Seven of Demona – Scourge, Cheshire ×2, Ursula,
+>   Mulan – Elite Archer ×2 and Guidebook, on the play against Ducktectives. Simulated over 20,000 deals:
+>   - same ink spent on turns 1–4: 9.31 (full mulligan) vs 9.25 (keep Demona, Cheshire ×2, Guidebook)
+>   - character by turn 2: 97% vs 79%
+>   - characters in play by turn 3: 2.9 vs 2.0
+>
+>   The user's reasoning: "no characters until turn 3, so I'm doing the full mulligan to try to have an opening curve."
+> - **Evidence for:** 01a13b88 (vs Vhalarus, Amber/Emerald Circle of Life), pre-game, on the draw. Seven of Martial
+>   Arts Master, Jebidiah, Isis, Luisa – Confident Climber, Dumbo, Shadow and Demona – Imperious Spellcaster: no 1-drop,
+>   two uninkables, three 4-drops. The user kept only Jebidiah. Simulated (the five unknown Set 14 cards modelled as
+>   1-cost or 3-cost characters):
+>   - ink spent on turns 1–4: 9.63 / 9.55 vs 9.24 / 9.15 for keeping 7
+>   - characters by turn 4: 4.9 / 4.4 vs 3.8 / 3.6
+>
+>   The user confirmed the same reasoning (an opening curve), 2026-11-01.
+> - **Caveat: the goal isn't maximum ink spend** (user, 2026-11-01). Compare options on curve (a play each turn),
+>   early lore pressure, interaction that sets the opponent back, and ink use, then weigh card quality and the
+>   matchup. `python3 tools/mulligan.py <replay> --plan --keep "…"` reports the first four for any replay (the original
+>   sims were ad hoc scripts, since lost; the tool reproduces their numbers). It can't judge card quality or engines.
+>   With the replay card cache (2026-11-01), the user's Set 14 cards have data, so no costs are guessed for these two
+>   games:
+>   - **01a14574:** the full mulligan led on every measure. Against keeping Demona, Cheshire ×2 and Guidebook: ink
+>     9.27 vs 9.18, play turns 3.65 vs 3.37 of 4, lore by turn 4 3.9 vs 2.4, interaction 60% vs 45%.
+>   - **01a13b88:** the mulligan made (keep Jebidiah) led on curve and early lore against keeping the engines (Martial
+>     Arts Master, Jebidiah, Dumbo, Shadow, Demona – Imperious Spellcaster): play turns 3.70 vs 3.39, lore by turn 4 3.7
+>     vs 2.3. The engines option led on interaction (100% vs 90%) and kept Dumbo.
+> - **Evidence against:** an independent blind review of 01a13b88 by a fresh coach session (2026-11-01) argued that
+>   this hand had a turn-2 play and engines (Dumbo, Martial Arts Master).
+>   - **Sending back only Isis and Luisa – Confident Climber** spends 9.29 ink on turns 1–4 (vs 9.51 for the full
+>     mulligan, `mulligan.py`) and keeps the engines.
+>   - **Against a likely slow sweeper deck** (Circle of Life, 60%), card quality matters more than early bodies
+>     (MULL-3), and most of the extra bodies are 0-strength 1-drops.
+>   - **So the broadened claim may be too broad.** It fits hands with no early play (01a14574) better than hands with
+>     a turn-2 play and engines. The user agreed to grade 01a13b88's mulligan a close call (2026-11-01).
+> - **Evidence, a close call:** 01a19bbd (MK_ifoughtthelore vs xBWx, game 2, a match the user sent; 2026-11-02),
+>   pre-game, on the draw against Princess Aggro. A seven with no 1-drop and three uninkables: Day Camp Instructor,
+>   Fangmeyer, Nick Wilde – Toy Drive Officer, Always Vigilant ×2, The Horseman Strikes! ×2. They kept only Day Camp
+>   Instructor. `mulligan.py` (1,500 deals) against also keeping Always Vigilant and one Horseman: ink on turns 1–4
+>   9.48 vs 9.58, play turns 3.78 vs 3.66 of 4, lore by turn 4 6.0 vs 5.2, characters 4.9 vs 4.3, interaction 80% vs
+>   100%. The deep mulligan led on early board and lore, the partial one on interaction: graded a close call.
+> - **Evidence, a close call:** 01a19c0c (MK_ifoughtthelore vs VH INK, game 3, a match the user sent; 2026-11-02),
+>   pre-game, on the draw against Amethyst/Ruby tempo-midrange. Kept Eilonwy, Helpful Officer and The Horseman
+>   Strikes!; sent back Fangmeyer, Elisa Maza, Judy Hopps – Lead Detective and Gaston – Superior Archer.
+>   `mulligan.py` (1,500 deals) against also keeping Lead Detective and Gaston (keep 5): lore by turn 4 7.5 vs 6.9,
+>   characters 5.2 vs 4.6, ink on turns 1–4 9.67 vs 9.79. The deep mulligan led on early board but sent back the
+>   matchup's best answers, which the sim can't weigh: graded a close call.
+> - **Evidence for, from the player (stonks 📈, relayed by danny, 2026-11-02):** three deep mulligans on the draw with
+>   Big Ramp, which the blind reviews had graded down for sending back a ramp plan (Priscilla, Dream Come True, Khan
+>   Industries): 01a15f93 (kept only Terror), 01a16035 (kept one Crime Fighter), 01a16972 (kept Marie). The player's
+>   reason: on the draw the hand must interact early, Priscilla dies for free to their 1- to 3-drops before she quests,
+>   and Khan Industries and Goliath come later. The sim already favoured the deep mulligan in 01a15f93; in 01a16035 its
+>   edge for the keep rested on Priscilla surviving. Revisited to good, close call and close call
+>   (`kb/meta/archetypes/sapphire-steel.md`, the player's rules).
+> - **Status:** open. Supported for hands with no early character (01a14574), and on the draw when the hand's plan
+>   can't survive the opponent's early board (01a15f93, 01a16035). For hands with an early play and engines, test the
+>   partial mulligans first; there it's a close call (01a13b88).
