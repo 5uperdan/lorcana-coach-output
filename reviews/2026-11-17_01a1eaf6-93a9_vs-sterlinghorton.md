@@ -365,8 +365,8 @@ Found by the coach during the review; the discussion may add more.
 
 | When | Error | How it was caught | How it won't happen again |
 |---|---|---|---|
-| Turn 10 | The coach's line had both Max Goofs sing, missing that BRAND-NEW PLAYLIST (in the card text the brief printed) made the dry one's quest worth 4 once Malicious went to the discard | Comparing your line with the coach's | Proposed: the brief's options show a character's conditional lore with the count it needs ("quest for 1; +3 with 5 songs in your discard: you have 4, so one song cast first makes it 4") |
-| Turns 2–22 | The brief's new LORE BOOSTS line listed Core-legal cards outside their lists (Pocahontas, Promising Lead and others) every turn, most of them noise in a game nowhere near 20 | Reading the briefs | Proposed: list boosts outside their lists only when one could decide the race next turn (their lore plus their board's quests within a boost of 20) |
+| Turn 10 | The coach's line had both Max Goofs sing, missing that BRAND-NEW PLAYLIST (in the card text the brief printed) made the dry one's quest worth 4 once Malicious went to the discard | Comparing your line with the coach's | Done in e3a80e0 (17 Nov 2026, with the user's agreement): the brief's options show a character's conditional lore with the count it needs ("quest for 1; +3 with 5 songs in your discard: you have 4, so one song cast first makes it 4") |
+| Turns 2–22 | The brief's new LORE BOOSTS line listed Core-legal cards outside their lists (Pocahontas, Promising Lead and others) every turn, most of them noise in a game nowhere near 20 | Reading the briefs | Done in e3a80e0 (17 Nov 2026, with the user's agreement): list boosts outside their lists only when one could decide the race next turn (their lore plus their board's quests within a boost of 20) |
 
 ## Open questions
 - **[Turns 6](#turn-6) and [8](#turn-8):** why did the Device stay in hand with Elisa known in their hand?
