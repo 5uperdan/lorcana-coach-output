@@ -345,7 +345,7 @@ Found by the coach during the review; the discussion may add more.
 
 | When | Error | How it was caught | How it won't happen again |
 |---|---|---|---|
-| Turns 13 and 15 | The coach counted the turn's draw twice: the `--plan` brief's hand already includes it, and the `--happened` brief's "You drew" line was read as one more card. Turn 15's first verdict faulted you for not playing a third Olaf that didn't exist | Turn 17's hand (two cards, no Olaf) didn't match | Proposed: the `--plan` brief labels the hand "after this turn's draw" and names the card drawn; the `--happened` brief marks the draw "already in the hand the plan showed" |
+| Turns 13 and 15 | The coach counted the turn's draw twice: the `--plan` brief's hand already includes it, and the `--happened` brief's "You drew" line was read as one more card. Turn 15's first verdict faulted you for not playing a third Olaf that didn't exist | Turn 17's hand (two cards, no Olaf) didn't match | Done (17 Nov, with the user's agreement): the `--plan` brief labels the hand "after this turn's draw of" the card drawn, and the `--happened` brief marks that draw "already in the hand the --plan brief showed"; a regression test checks both on this game |
 
 ## Open questions
 - **[Turn 11](#turn-11):** did you consider Roller Bob with Rush on the Stadium before Max Goof's challenge?
