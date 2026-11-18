@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Status** | draft (blind pass done, not yet discussed) |
+| **Status** | final (discussed 18 Nov 2026: the player's answers to the open questions, relayed by danny) |
 | **Replay** | `01a1ee51-e2dc` (`python3 tools/brief.py 01a1ee51-e2dc --turn N`) · [duels.ink viewer](https://duels.ink/replay/01a1ee51-e2df-70ae-acb2-3540024b9315?step=0) |
 | **Format** | Core Constructed (stated in the replay). Set 14 era: inks revealed before the coin toss |
 | **Decks** | You: Emerald/Ruby Ruby R.E.D. ([the coach's notes on it](#cite-kb-meta-archetypes-emerald-ruby-ruby-r-e-d-greenjaypacker-s-lists)), the same list as against Nick. Them: Amber/Sapphire ([the coach's notes on this pair](#cite-kb-meta-archetypes-amber-sapphire-control-daman)); archetype as it became clear: **Control #1**, 92% from game turn 4 (two Auroras, Hamm, Mickey Mouse – Best in Town inked), with Sulley – Strategic Scarer and Bagheera – Cautious Explorer off-list |
@@ -15,10 +15,12 @@
 - **Good plays:** [3](#turn-3), [7](#turn-7) (the Device down, Max Goof kept ready to sing), [9](#turn-9) (The
   Leviathan on game turn 9: all five of their characters banished, 2 lore drained), [15](#turn-15) (a card dug, and two
   Roller Bobs into Lionheart's Bodyguard).
-- **Close calls:** [pre-game](#turn-0) (five cards sent back), [13](#turn-13) (a second Roller Bob, Max Goof kept).
+- **Close calls:** [pre-game](#turn-0) (five cards sent back).
 - **Inaccuracies / mistakes / blunders:**
   - **Inaccuracy, [11](#turn-11):** Roller Bob rather than Max Goof, once the mill had put a fifth song in the
     discard: 1 lore a turn instead of 4, with the race just restarted.
+  - **Inaccuracy, [13](#turn-13):** a second Roller Bob rather than Max Goof. The one kept in hand had Rush
+    next turn, so Max Goof now cost nothing in the kill on Cinderella (revisited in discussion from a close call).
   - **Mistake, [17](#turn-17):** Max Goof's SWEET REMIX spent the ink Strange Things needed, leaving one out (Olaf with
     The Leviathan, about 4%) where a cheaper dig kept two (about 12%).
 
@@ -68,6 +70,9 @@ Roller Bob). Drew two Strikes, The Leviathan, Improvise and the Device. They sen
 **Verdict: close call.** Five fresh cards dig hardest for the combo, which this hand lacked entirely ([H-5](#cite-h-5)). Inner
 Strength and Strike were worth keeping, though: each is a cheap dig of its own and an action for Olaf's discount, and
 without a song Max Goof's SWEET REMIX draws nothing. Both are reasonable.
+
+**In discussion (18 Nov 2026):** you sent them back to try to find the ramp you wanted, knowing it's close since the
+cheap digs also make Olaf cheaper. The verdict (close call) stands.
 
 <a id="turn-1"></a>
 
@@ -218,6 +223,9 @@ is suboptimal because Max Goof now quests for 4 a turn against Roller Bob's 1, a
 ([POS-1](#cite-pos-1) for a player ahead), but you were behind ([POS-2](#cite-pos-2)), and from 2 cards in hand Control rarely spends a Storm on one
 3-drop; Hades would take whichever character you played.
 
+**In discussion (18 Nov 2026):** Max Goof was held for his draw, without noticing that five songs in the discard made
+him a 4-lore quester; you call it a mistake. The verdict stands.
+
 <a id="turn-12"></a>
 
 ### Turn 12: their turn
@@ -245,8 +253,16 @@ the other. 5 ink; the discard holds 12, so the Photo's lore mode is on (+1 for 1
 **What you did:** the second Roller Bob (no Rush), the Photo's lore, the first Roller Bob quested (2–6). Max Goof
 stayed in hand; 1 ink unused.
 
-**Verdict: close call.** Your line kills Cinderella next turn in more cases; the coach's gets Max Goof's 4 lore a turn
-sooner. With Cinderella ramping them every turn, removing her is worth the delay.
+**Verdict (revisited 18 Nov 2026): inaccuracy (small; confidence: medium).** The first verdict, a close call, said
+your line kills Cinderella next turn in more cases. It doesn't: the coach credited the Roller Bob kept in hand with
+Rush only if she had challenged the first, and missed what you point out in discussion. Three characters are in your
+discard, so TIME TO MOVE gives him Rush next turn whatever she does: the first Roller Bob and a Rushing second make 8
+against her 6 {W}, or the Rushing one alone finishes her after she has taken 4 challenging. Playing **the second
+Roller Bob** now is suboptimal because Max Goof then comes a turn later for no gain in the kill. **Max Goof now, the
+second Roller Bob kept** is better: his 4 lore a turn starts next turn. Its costs are small. A Raging Storm (13% held
+after their draw) would take two of your characters either way, and leaves a Roller Bob in hand only on this line;
+Rush puts two characters from the discard on the bottom, which can turn off the Photo's lore mode for a turn (11 cards
+there).
 
 <a id="turn-14"></a>
 
@@ -308,6 +324,9 @@ ink Strange Things needs, so of the outs only Olaf with The Leviathan was left. 
 with a Max Goof inked, see one card fewer but keep both outs live: about three times the chance of surviving the
 turn. In a game this far behind, the line is judged by its outs, and their ink ([POS-2](#cite-pos-2)).
 
+**In discussion (18 Nov 2026):** you weren't thinking of Strange Things as an out or a delay, still learning the deck.
+The verdict stands.
+
 ## Lessons
 1. **Against Belle – Snowfield Strategist, IT'S A MACHINE! ramps them** ([turns 9](#turn-9), [10](#turn-10)). Each
    banished character can go to their inkwell, and Belle sees the others' banishes even when she's banished with
@@ -347,11 +366,16 @@ Found by the coach during the review; the discussion may add more.
 | When | Error | How it was caught | How it won't happen again |
 |---|---|---|---|
 | Turn 1 | Ran two briefs in one command | The guard hook refused it | Nothing new: the hook is the prevention, and it worked |
+| Turn 13 | The comparison credited the held Roller Bob's Rush only if Cinderella had challenged the first, and missed that it lets him join a two-character kill next turn whatever she does | The player's answer in discussion (18 Nov 2026) | Proposed: on your turns the brief's options say, for each card in hand that can give itself Rush (Roller Bob's TIME TO MOVE), whether it can next turn (characters in your discard), so a line that holds it counts its challenge |
 
 ## Open questions
-- **[Turns 11](#turn-11) and [13](#turn-13):** was Max Goof held back against another Raging Storm or Spooky Sight?
-- **[Turn 17](#turn-17):** what were you digging for: Olaf with The Leviathan, or Strange Things?
-- **[Pre-game](#turn-0):** why send back Inner Strength and Strike, both cheap digs and actions for Olaf?
+All answered by the player in discussion, relayed by danny (18 Nov 2026).
+- **[Turns 11](#turn-11) and [13](#turn-13):** turn 11's Max Goof was held for his draw, missing his 4 lore (the
+  verdict stands). On turn 13 you were setting up two characters for Cinderella but forgot the held Roller Bob's Rush:
+  Max Goof was better. Revisited from a close call to an inaccuracy.
+- **[Turn 17](#turn-17):** Strange Things wasn't seen as an out. The verdict stands.
+- **[Pre-game](#turn-0):** to find the ramp you wanted; close, since cheap digs also make Olaf cheaper. The verdict
+  stands.
 
 ## Citations
 Copies of the coach's knowledge base cited above, as they stood when they were cited (the private repository's commit and date are given with each). They don't change when the knowledge base does.
