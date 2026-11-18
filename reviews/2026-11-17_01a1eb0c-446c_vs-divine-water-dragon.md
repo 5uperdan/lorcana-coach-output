@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Status** | draft (blind pass done, not yet discussed) |
+| **Status** | discussed 18 Nov 2026 (the player's answers to the open questions, relayed by danny); one question waits for danny |
 | **Replay** | `01a1eb0c-446c` (`python3 tools/brief.py 01a1eb0c-446c --turn N`) · [duels.ink viewer](https://duels.ink/replay/01a1eb0c-4487-7b81-a42b-b4212a665c3a?step=0) |
 | **Format** | Core Constructed (stated in the replay). Set 14 era: inks revealed before the coin toss |
 | **Decks** | You: Emerald/Ruby Ruby R.E.D. ([the coach's notes on it](#cite-kb-meta-archetypes-emerald-ruby-ruby-r-e-d-against-danny-s-rockstar-aggro-bigshotbob)), the list from your games against Itz_Rj, sterlinghorton and etpicci that day. Them: Amethyst/Steel ([the coach's notes on this pair](#cite-kb-meta-archetypes-amethyst-steel-a-merlin-and-shop-variant-unlisted)); archetype as it became clear: an **unlisted** Amethyst/Steel list (99% by game turn 15): Merlin's Shop and Smithy moved into by three Hyperia City Expresses, Smash, Bodyguards (Woolter & Jesse, Inspector Tezuka, The Headless Horseman), Tinker Bell – Snowflake Collector |
@@ -14,11 +14,11 @@
 ## Summary
 - **Good plays:** [3](#turn-3), [5](#turn-5), [11](#turn-11) (the combo, Olaf's quest first), [15](#turn-15) (Tod
   sang Malicious, The Leviathan quested, then became Phillip and wiped their board), [17](#turn-17).
-- **Close calls:** [pre-game](#turn-0) (one Olaf sent back).
+- **Close calls:** [pre-game](#turn-0) (one Olaf sent back), [13](#turn-13) (The Leviathan challenged the
+  Shop, 10 damage to its 12 {W}, to finish it next turn: revisited in discussion from a mistake).
 - **Inaccuracies / mistakes / blunders:**
   - **Mistake, [9](#turn-9):** Olaf played a turn before the Device could turn him into anything, and left in play
     through their turn.
-  - **Mistake, [13](#turn-13):** The Leviathan challenged the Shop (10 damage to its 12 {W}) instead of questing for 3.
   - **Inaccuracy, [7](#turn-7):** Max Goof before the Device made the turn-9 combo depend on him surviving.
 
 **What decided it:** two board wipes their deck of cheap bodies couldn't answer. The Leviathan banished Pepita and Merlin
@@ -185,6 +185,15 @@ the combo is then certain on game turn 9: Olaf (3), the Device (1) and the Photo
 still in hand. Max Goof's two cards and his body are real gains, so it's an inaccuracy, not a mistake. As it fell, his
 draws found Malicious, which keeps the turn-9 combo alive if he lives. [SEQ-4](#cite-seq-4), [WIN-2](#cite-win-2); confidence medium.
 
+**In discussion (18 Nov 2026):** you chose Max Goof's draw over the Device because, not knowing their deck, the Device
+in play looked exposed to item removal, and Max Goof singing next turn would make the mill unnecessary. **You've asked
+danny whether he agrees.** The coach's view, for him to weigh: the free song was counted in the verdict (57% to find
+one, with Max Goof needing to survive Smash or Shere Khan with Pepita). On item removal, duels.ink's Amethyst/Steel
+lists run none. Steel's Core-legal cards that banish an item are Benja – Guardian of the Dragon Gem, Mulan – Created
+by the Vine, Donald Duck – Along for the Ride and Pluto – Steel Champion (lorcana-api, which covers Sets 9–13, not Set
+14); of those, only Pluto has turned up in an Amethyst/Steel list the coach has seen (one removal-heavy variant). So
+the Device was safer in play than Max Goof, and the verdict stands until danny answers.
+
 <a id="turn-9"></a>
 
 ### Turn 9: your turn 5
@@ -216,6 +225,9 @@ has to come down next turn; losing Olaf leaves no cheap base (the other three Ol
 9 on his own). Playing **the Device** with the Photo and The Torn Corner is better because next turn's combo is then
 certain (Malicious, Olaf and the Device's 1 make 5 of your 6 ink) and nothing of yours is exposed. The 2 lore Olaf takes
 is the same either way: they'll have at least 2 by turn 11. [SEQ-4](#cite-seq-4); confidence medium-high.
+
+**In discussion (18 Nov 2026):** the idea was Olaf's lore drain; knowing the deck better now, you'd play the Device
+first. The verdict stands.
 
 <a id="turn-11"></a>
 
@@ -267,11 +279,22 @@ The coach's pick is the first; ink the second Phillip or Stegmutt.
 the Device); played the second Photo; **challenged Merlin's Shop and Smithy with The Leviathan** (10 damage; it has 12
 {W} and survived); gained 1 lore with each Photo (4–2) and drew Max Goof with The Torn Corner.
 
-**Verdict: mistake.** The rest of the turn is the coach's line, and the second Photo's lore is a good find. Challenging
-**the Shop** is suboptimal because it doesn't banish it (10 damage against 12 {W}) and costs The Leviathan's 3 lore;
-finishing it next turn costs another 3. The Shop gives them a card and a lore only on turns they move a new character
-there, so 6 of your lore buys less than that back. **Questing** is better because the race is the plan: 7–2 instead of
-4–2, with a board they can't touch. [QC-1](#cite-qc-1), [TRADE-4](#cite-trade-4); confidence medium-high.
+**Verdict (revisited 18 Nov 2026): close call (confidence: medium).** The first verdict, a mistake, valued the Shop at
+a card and a lore only on turns they move a new character there, and counted finishing it as another 3 lore. Your
+answer in discussion, that you meant to finish it next turn and that a second Shop lets one character move between the
+two each turn, made the coach weigh what it left out:
+
+- **The Shop was their engine:** a card and a lore on three of their four turns since it landed (Pepita, Merlin,
+  Tinker Bell), and [the knowledge base already said](#cite-kb-cards-merlins-shop-and-smithy-magical-market-in-play)
+  that a second Shop doubles it. One Shop had been inked, and their list's count was unknown.
+- **With three Expresses one challenge can't banish it** (12 {W} against 10). Damage stays, so a kill takes two turns
+  whenever it's made, and the finish needs only 2 damage: The Leviathan again, or Tod with an Improvise or Inner
+  Strength.
+- **Against that, the race was yours:** 2–2 with The Leviathan questing for 3 and nothing of theirs able to touch it,
+  so each quest given up is a turn longer for them to find Hades (24% after their draw).
+
+Killing the Shop costs about 4 to 6 lore over two turns and takes a card and a lore a turn from them, more with a
+second Shop. With the lead you had, the two lines come out about level. [QC-1](#cite-qc-1), [TRADE-4](#cite-trade-4).
 
 <a id="turn-15"></a>
 
@@ -327,9 +350,10 @@ and Phillip: 20–5, the win.
    opponents rarely touch; Olaf is a character, which Smash, Shere Khan's challengers and Hades all reach. With the
    Device already in play, the combo turn needs only Olaf's cost, 1 ink and a second card into the discard, and nothing
    of yours waits in play to be answered.
-2. **A challenge that doesn't banish a location is a lost quest** ([turn 13](#turn-13)). Damage stays on a location, so
-   it can be finished later, but each challenge costs The Leviathan's 3 lore. Count the location's {W} (each Hyperia
-   City Express adds 2 to the Shop) before challenging it.
+2. **A Shop one challenge can't banish takes two, and that can be worth it** ([turn 13](#turn-13), revisited).
+   Damage stays on a location, so anything with the 2 left can finish it next turn. Weigh the challenges' lost lore
+   against what the Shop makes them each turn: a card and a lore, twice that with a second Shop. Count its {W}
+   first: each Hyperia City Express adds 2.
 3. **The Leviathan can quest before the Device turns it into Phillip** ([turn 15](#turn-15)). The Device banishes an
    exerted character, so a quest, then Malicious and Phillip, takes the lore and the wipe in one turn.
 
@@ -357,12 +381,16 @@ Found by the coach during the review; the discussion may add more.
 | When | Error | How it was caught | How it won't happen again |
 |---|---|---|---|
 | Turn 17 | The coach tried to cut the turn's brief with sed | The hook (`.claude/hooks/guard_brief.py`) refused the command | None needed: the hook did its job, and the brief was read whole |
+| Turn 13 | The verdict valued the Shop at the lore of new characters' moves and counted its finish as another 3 lore. It left out the Shop's cards, the knowledge base's note that a second Shop doubles it, that three Expresses made a two-turn kill the only kill, and that Tod with a pump could finish it | The player's answer in discussion (18 Nov 2026): the plan was to finish it next turn, before a second Shop let one character move between them | Proposed: when a challenge on a location doesn't banish it, the brief prints what the location makes them each turn (lore and cards, and with a second copy) and what you have that can finish it next turn. The card note's "challenge a Shop only when the challenge banishes it" is revised (applied) |
 
 ## Open questions
-- **[Turn 9](#turn-9):** why Olaf before the Device? Was it to drain the 2 lore they had, or to have him sing Malicious
-  for free next turn?
-- **[Turn 13](#turn-13):** did you see the Shop's 12 {W} (three Expresses), or plan to finish it next turn?
-- **[Turn 7](#turn-7):** did you count on Max Goof singing a song on turn 9, or was the draw worth the risk?
+Answered by the player in discussion, relayed by danny (18 Nov 2026); one is put to danny.
+- **[Turn 7](#turn-7), for danny:** is Max Goof's draw better than the Device in play here, given the Device's
+  exposure to item removal against an unknown deck and Max Goof's free song next turn? The coach's view is in the
+  turn's section: the verdict stands for now.
+- **[Turn 9](#turn-9):** Olaf was for the lore drain; you'd now play the Device first. The verdict stands.
+- **[Turn 13](#turn-13):** you saw the 12 {W} and planned to finish the Shop next turn, against a second Shop.
+  Revisited to a close call.
 
 ## Citations
 Copies of the coach's knowledge base cited above, as they stood when they were cited (the private repository's commit and date are given with each). They don't change when the knowledge base does.
@@ -418,3 +446,15 @@ Copies of the coach's knowledge base cited above, as they stood when they were c
 <a id="cite-mull-1"></a>**MULL-1**: strategy principle, `kb/strategy/principles.md` at `bf37933` (2026-11-17), working tree
 
 > - **MULL-1. Keep a plan, not the strongest cards.** *Ask: "Which hand gives me the best chance to execute my game plan in this matchup?"* `[MCL ch.12]` · baseline
+
+<a id="cite-kb-cards-merlins-shop-and-smithy-magical-market-in-play"></a>**merlins-shop-and-smithy-magical-market.md, In play**: knowledge base, `kb/cards/merlins-shop-and-smithy-magical-market.md` at `9552031` (2026-11-18), working tree
+
+> ## In play `[coach + user, 01a18275, 2026-11-02]`
+> - **It's a lore engine despite 0 {L}:** 1 lore and a card a turn for 2 ink, and a second Shop doubles it. A
+>   character that moves there can still quest. In 01a18275 the opponent scored 6 of their 20 lore this way,
+>   including the winning point. The brief's lore clock counts it as "plus up to N a turn from moving characters".
+> - **Arthur – Merlin's Assistant moves to a location for free when played** and gets an ink drop, so with Arthur the
+>   first move costs nothing.
+> - **Locations can be challenged at any time and don't hit back** (CR 4.6.8, RULE-3). Their Cheshire destroyed your
+>   Shop in two challenges (turns 10 and 12). Weigh destroying theirs against the lore and cards it will make, the
+>   same way as a quester.
