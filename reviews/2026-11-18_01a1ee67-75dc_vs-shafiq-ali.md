@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Status** | draft (blind pass done, not yet discussed) |
+| **Status** | final (discussed 18 Nov 2026: the player's answers to the open questions, relayed by danny) |
 | **Replay** | `01a1ee67-75dc` (`python3 tools/brief.py 01a1ee67-75dc --turn N`) · [duels.ink viewer](https://duels.ink/replay/01a1ee67-75e1-7340-a2f3-8b913f147bd5?step=0) |
 | **Format** | Core Constructed (stated in the replay). Set 14 era: inks revealed before the coin toss |
 | **Decks** | You: Emerald/Ruby Ruby R.E.D. ([the coach's notes on it](#cite-kb-meta-archetypes-emerald-ruby-ruby-r-e-d-greenjaypacker-s-lists)), the same list as your other games that day. Them: Ruby/Steel ([the coach's notes on this pair](#cite-kb-meta-archetypes-ruby-steel-an-unlisted-locations-list-against-greenjaypacker-s-ruby-r-e-d-claudia)); archetype as it became clear: an **unlisted** list (99% from game turn 2): Tinker Bell, Jebidiah, Diablo, Look What You've Done ×2, Peg, Scar, Shere Khan – Menacing Predator, Pepita, Be King Undisputed |
@@ -68,6 +68,12 @@ the deck wins with, and having it in hand turns every Olaf you draw into the wip
 pieces by game turn 9 falls from about 54% to about 32%. **Keeping it** (and Malicious, a song for Max Goof and an
 action for Olaf) is better; uninkable costs one ink choice, which a seven-card hand of 1- to 4-drops can spare.
 [MULL-1](#cite-mull-1).
+
+**In discussion (18 Nov 2026):** you expected a locations deck, as Claudia's Ruby/Steel list the day before, so you
+aimed for a start with more characters rather than The Leviathan's wipe, and allow that planning for the wipe may
+still have been better. The knowledge base had one Ruby/Steel locations list, Claudia's, while the pair's known
+archetypes (Incredibles, Unnamed #1) are character decks and most of its games are ungrouped. And against locations
+The Leviathan is still a 10/10 quester for 3 that any Olaf becomes. The verdict stands.
 
 <a id="turn-1"></a>
 
@@ -228,6 +234,13 @@ Olaf for 0 (3 → 1); the Device turned Olaf into The Leviathan, which banished 
 2 lore a turn, the card engine and Tinker Bell's +1. Tod quested into Tinker Bell's reach, a 1-lore character for a
 lore.
 
+**In discussion (18 Nov 2026):** you point out that Scar's BE GRATEFUL (Allies +1 {S}) kept IT'S A MACHINE! to Scar
+alone, and that against a Scar deck Malicious with Phillip, which has no strength cap, may be the better plan, or the
+difference too small to matter. Worth knowing: with Scar in play every Ally counts 1 more toward the 10, and here it
+made 11. Phillip's line takes every character Malicious damages, but needs Phillip in hand and Malicious cast (3 ink,
+or free from a dry 3-cost); here Malicious was the card SWEET REMIX discarded to find Olaf. Banishing Scar, the engine
+and the buff, was right for this turn. Added to the knowledge base.
+
 <a id="turn-14"></a>
 
 ### Turn 14: their turn
@@ -278,6 +291,9 @@ catch up from here; Olaf in hand keeps a Device base out of reach of removal.
 
 **Verdict: close call.** Olaf for 0 would have won a turn sooner and drained 2; keeping him back costs them nothing
 they can use. Either is a win from here.
+
+**In discussion (18 Nov 2026):** yes, Olaf was kept in hand as a Device base, out of reach of removal. The verdict
+(close call) stands.
 
 <a id="turn-18"></a>
 
@@ -365,8 +381,11 @@ Found by the coach during the review; the discussion may add more.
 | Turn 21 | Read the last turn's log with `--draft-ok`, skipping its `--plan` brief, on a turn whose only line was a 3-lore quest from 17 | Writing the turn's section | Proposed: brief.py refuses `--draft-ok` while the game's review still has its RESULT placeholder (the blind pass isn't over) |
 
 ## Open questions
-- **[Pre-game](#turn-0):** why send back The Leviathan with the Device kept?
-- **[Turn 17](#turn-17):** was Olaf kept in hand as a Device base out of reach of removal?
+All answered by the player in discussion, relayed by danny (18 Nov 2026).
+- **[Pre-game](#turn-0):** you expected locations (as Claudia's list) and wanted characters early. The verdict stands.
+- **[Turn 17](#turn-17):** yes, Olaf was kept from removal as a base. The verdict stands.
+- **[Turn 13](#turn-13)** (the player's own point): Scar's +1 to Allies shrinks what IT'S A MACHINE! takes. Added to
+  the knowledge base.
 
 ## Citations
 Copies of the coach's knowledge base cited above, as they stood when they were cited (the private repository's commit and date are given with each). They don't change when the knowledge base does.
