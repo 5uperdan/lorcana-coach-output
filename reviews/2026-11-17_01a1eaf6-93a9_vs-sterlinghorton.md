@@ -268,12 +268,12 @@ Stitch (4), or other questers. Every body you add is lore and a target they must
 (drew a second Tod); quested Max Goof (16–11). No ink this turn; 2 ink unused, and the second Tod (3) stayed in hand.
 
 **Verdict (revisited 18 Nov 2026): good play (confidence: medium-high).** The first verdict, an inaccuracy, preferred
-inking Stegmutt so the second Tod could come down this turn, which meant discarding The Leviathan to PROBLEM SOLVING
-(the only other card the first Tod could discard). It called The Leviathan dead without a character of cost 8 or more
-to banish, and missed that Olaf is one: three were left in your 32 cards, each costing 0 with this many actions in the
-discard, and the Device was already in play. So The Leviathan in hand was the payoff of your best out, Olaf into The
-Leviathan with IT'S A MACHINE! (the brief's needs check: three Olafs, 18% from the draws alone by your turn 20, before
-any dig).
+inking Stegmutt so the second Tod could come down this turn, which meant the first Tod discarding The Leviathan
+(discarding the Inner Strength instead loses the draw that found the second Tod). It called The Leviathan dead without
+a character of cost 8 or more to banish, and missed that Olaf is one: three were left in your 32 cards, each costing 0
+with this many actions in the discard, and the Device was already in play. So The Leviathan in hand was the payoff of
+your best out, Olaf into The Leviathan with IT'S A MACHINE! (the brief's needs check: three Olafs, 18% from the draws
+alone by your turn 20, before any dig).
 
 Your answer in discussion, keeping the second Tod to dig for Olaf next turn, keeps that out whole. Playing Tod now or
 next turn sees the same number of cards by your turn 18; all the first verdict's line gained was a 1-lore body a turn
