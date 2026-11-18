@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Status** | draft (blind pass done, not yet discussed) |
+| **Status** | discussed 18 Nov 2026 (the player's answers to the open questions, relayed by danny); one question waits for danny |
 | **Replay** | `01a1eb2e-39fc` (`python3 tools/brief.py 01a1eb2e-39fc --turn N`) · [duels.ink viewer](https://duels.ink/replay/01a1eb2e-3a0d-7e5c-b20b-63b4227b07f6?step=0) |
 | **Format** | Core Constructed (stated in the replay). Set 14 era: inks revealed before the coin toss |
 | **Decks** | You: Emerald/Ruby Ruby R.E.D. ([the coach's notes on it](#cite-kb-meta-archetypes-emerald-ruby-ruby-r-e-d-against-danny-s-rockstar-aggro-bigshotbob)), a different list from your earlier games that day: White Rabbit ×4 and Roller Bob ×3 in, Stegmutt and To Wither a Flower out, three Photos. Them: Ruby/Steel ([the coach's notes on this pair](#cite-kb-meta-archetypes-ruby-steel-incredibles-how-it-plays)); archetype as it became clear: an **unlisted** locations list (100% from game turn 5): Khan Stadium, Zootopia – Police Headquarters ×2, Khan Industries, Raya – Determined Explorer, Fergus ×2, Inspector Tezuka, Roxanne, Arthur – Merlin's Assistant ×2, Carl Fredricksen ×2, Ink Explosion, Touch the Sky |
@@ -80,6 +80,14 @@ Corner (drew White Rabbit, Strike a Good Match, Another Tale to Spin and Inner S
 `tools/mulligan.py`, against 9.59) and Malicious, which is Phillip's partner and an action for Olaf. In a deck whose
 plan is the combo, the extra looks are a fair price, and what came back (White Rabbit, two songs and a cantrip) is the
 kind of card that was sent. [MULL-1](#cite-mull-1); confidence medium.
+
+**In discussion (18 Nov 2026):** you kept The Leviathan over Phillip and Malicious because the Phillip line needs more
+cards: Olaf, the Device, Malicious with a dry 3-cost to sing it, and Phillip, against Olaf, the Device and The
+Leviathan. You'd keep the same approach knowing they played locations, and **you've asked danny whether he agrees.**
+The coach's view, for him to weigh: you're right, and the setup missed it. Even with Phillip and Malicious both in
+hand, Phillip's combo turn costs about 2 more ink than The Leviathan's (Malicious at 3, unless a dry 3-cost sings it,
+against the Photo's 1-ink mill as the second card), and Phillip's gains (inkable, no strength cap) don't make that up.
+The verdict stays a close call, now leaning to your mulligan.
 
 <a id="turn-1"></a>
 
@@ -217,6 +225,9 @@ that one more song (in your hand) was about to make a 4-lore quester, and the St
 rest of the turn was right: once SWEET REMIX found Olaf, playing him for 2 took 2 lore now and leaves the Device and
 The Leviathan for next turn. [RULE-3](#cite-rule-3), [QC-2](#cite-qc-2), [SEQ-3](#cite-seq-3); confidence medium.
 
+**In discussion (18 Nov 2026):** with no Olaf you looked to control the board first, and didn't see that Roller Bob on
+the Stadium first would have saved Max Goof; you agree Roller Bob was the better play. The verdict stands.
+
 <a id="turn-13"></a>
 
 ### Turn 13: your turn 7
@@ -244,6 +255,9 @@ Device would have met IT'S A MACHINE!'s condition: The Leviathan would have bani
 Roller Bob cost would have paid for the second Olaf. **The Photo's mill first** is better: the same board for them, 2
 lore fewer (9, not 11), and Olaf and Roller Bob still yours. Banishing the Stadium with Olaf was right: their locations
 are the clock now. [SEQ-2](#cite-seq-2); confidence high.
+
+**In discussion (18 Nov 2026):** Roller Bob looked cheaper, and the Photo's 1-ink mill was forgotten; you agree the
+mill was better, with Roller Bob kept as a body. The verdict stands.
 
 <a id="turn-15"></a>
 
@@ -346,12 +360,14 @@ Found by the coach during the review; the discussion may add more.
 | When | Error | How it was caught | How it won't happen again |
 |---|---|---|---|
 | Turns 13 and 15 | The coach counted the turn's draw twice: the `--plan` brief's hand already includes it, and the `--happened` brief's "You drew" line was read as one more card. Turn 15's first verdict faulted you for not playing a third Olaf that didn't exist | Turn 17's hand (two cards, no Olaf) didn't match | Done (17 Nov, with the user's agreement): the `--plan` brief labels the hand "after this turn's draw of" the card drawn, and the `--happened` brief marks that draw "already in the hand the --plan brief showed"; a regression test checks both on this game |
+| Pre-game | The setup compared the two payoffs on strength cap and inkability, not on what their combo turn costs (Phillip's needs Malicious: about 2 more ink, or a dry singer) | The player's answer in discussion (18 Nov 2026) | Applied: the Ruby R.E.D. notes in the Emerald/Ruby pair file now give each payoff's combo-turn cost, and the pre-game read covers the reviewed player's own deck notes |
 
 ## Open questions
-- **[Turn 11](#turn-11):** did you consider Roller Bob with Rush on the Stadium before Max Goof's challenge?
-- **[Turn 13](#turn-13):** when IT'S A MACHINE! failed, was the Photo's mill considered, or did Roller Bob look
-  cheaper?
-- **[Pre-game](#turn-0):** what made you keep The Leviathan over Phillip and Malicious?
+Answered by the player in discussion, relayed by danny (18 Nov 2026); one is put to danny.
+- **[Pre-game](#turn-0), for danny:** is keeping The Leviathan right, since the Phillip line needs more cards? The
+  coach agrees (in the turn's section): a close call, now leaning to your mulligan.
+- **[Turn 11](#turn-11):** you agree Roller Bob on the Stadium first was better. The verdict stands.
+- **[Turn 13](#turn-13):** the mill was forgotten; you agree it was better. The verdict stands.
 
 ## Citations
 Copies of the coach's knowledge base cited above, as they stood when they were cited (the private repository's commit and date are given with each). They don't change when the knowledge base does.
