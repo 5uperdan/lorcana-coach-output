@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Status** | draft (blind pass done, not yet discussed) |
+| **Status** | final (discussed 18 Nov 2026: the player's answers to the open questions, relayed by danny) |
 | **Replay** | `01a1ee60-9d32` (`python3 tools/brief.py 01a1ee60-9d32 --turn N`) · [duels.ink viewer](https://duels.ink/replay/01a1ee60-9d36-7df2-84a2-1788d1e71312?step=0) |
 | **Format** | Core Constructed (stated in the replay). Set 14 era: inks revealed before the coin toss |
 | **Decks** | You: Emerald/Ruby Ruby R.E.D. ([the coach's notes on it](#cite-kb-meta-archetypes-emerald-ruby-ruby-r-e-d-greenjaypacker-s-lists)), the same list as your other games that day. Them: Amber/Steel ([the coach's notes on this pair](#cite-kb-meta-archetypes-amber-steel-rockstar-aggro-savitar-s-lilo-list)); archetype as it became clear: **Rockstar Aggro**, 87% from game turn 4 (Stitch – Protector of Frogs, Lilo – Bundled Up), with Mowgli – Man Cub and Lilo – Rock Star off-list |
@@ -126,6 +126,13 @@ game turn 9. Candidates:
 **Verdict: fine.** Against a deck that showed Mowgli, the Device in play is safe from the hand attack, and the next
 turn still fits Max Goof and the Photo. Max Goof first would have dug a turn sooner; it's close.
 
+**In discussion (18 Nov 2026):** yes: with no item removal known in their deck, you didn't want to risk the Device
+being discarded from hand. You asked danny to confirm there's none; from the coach's knowledge base, duels.ink's
+Amber/Steel lists run no item removal. Steel's Core-legal cards that banish an item are Benja – Guardian of the Dragon
+Gem, Mulan – Created by the Vine, Donald Duck – Along for the Ride and Pluto – Steel Champion (lorcana-api, which
+covers Sets 9–13, not Set 14); none is in those lists. Mowgli, which they had shown, takes cards from hand. The
+verdict (fine) stands.
+
 <a id="turn-6"></a>
 
 ### Turn 6: their turn
@@ -161,6 +168,10 @@ Olaf costs 5, the Device is in play, and The Leviathan is still to find (4 in 47
 
 **Verdict: good play.** Better than the coach's line: Max Goof on the board turns next turn's Strike into a free dig,
 so by the combo turn you've seen five cards for The Leviathan rather than three, for the same ink.
+
+**In discussion (18 Nov 2026):** the plan was the cards: early on, more cards in hand meant a better chance of finding
+what was missing (The Leviathan, or Malicious with Phillip). The free Strike next turn came with the line. The verdict
+judges the play, so it stands.
 
 <a id="turn-8"></a>
 
@@ -297,8 +308,10 @@ Found by the coach during the review; the discussion may add more.
 | Turn 7 | The coach's line (Strike now, the Photo and a mill) saw fewer cards by the combo turn than yours, because it missed that Max Goof in play makes next turn's song free | Comparing your line with the coach's | Proposed: the brief's options mark a song in hand that a character in play (or one you can play this turn) could sing for free next turn |
 
 ## Open questions
-- **[Turn 7](#turn-7):** was the free Strike on the next turn the plan when you played Max Goof?
-- **[Turn 5](#turn-5):** the Device before Max Goof: was Mowgli (inked the turn before) the reason?
+All answered by the player in discussion, relayed by danny (18 Nov 2026).
+- **[Turn 7](#turn-7):** Max Goof was for the cards; the free Strike came with it. The verdict stands.
+- **[Turn 5](#turn-5):** yes, the Device went down to keep it from a discard, with no item removal known in their
+  deck. None is in duels.ink's Amber/Steel lists (the turn's section). The verdict stands.
 
 ## Citations
 Copies of the coach's knowledge base cited above, as they stood when they were cited (the private repository's commit and date are given with each). They don't change when the knowledge base does.
