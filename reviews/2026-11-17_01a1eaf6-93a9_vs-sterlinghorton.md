@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Status** | draft (blind pass done, not yet discussed) |
+| **Status** | final (discussed 18 Nov 2026: the player's answers to the open questions, relayed by danny) |
 | **Replay** | `01a1eaf6-93a9` (`python3 tools/brief.py 01a1eaf6-93a9 --turn N`) · [duels.ink viewer](https://duels.ink/replay/01a1eaf6-93b6-7dbc-82be-9691dfc9e862?step=0) |
 | **Format** | Core Constructed (stated in the replay). Set 14 era: inks revealed before the coin toss |
 | **Decks** | You: Emerald/Ruby Ruby R.E.D. ([the coach's notes on it](#cite-kb-meta-archetypes-emerald-ruby-ruby-r-e-d-against-danny-s-rockstar-aggro-bigshotbob)), the same list as in your game against Itz_Rj earlier that day. Them: Amber/Sapphire ([the coach's notes on this pair](#cite-kb-meta-archetypes-amber-sapphire-detectives-how-it-plays)); archetype as it became clear: **Detectives**, 99% from their first two cards (Higgins, Nick Wilde inked) |
@@ -14,12 +14,13 @@
 ## Summary
 - **Good plays:** [pre-game](#turn-0) (sent back the three slow cards to dig for the engine), [10](#turn-10) (Max
   Goof quested for 4, better than the coach's line), [12](#turn-12) (the full combo: their board of four gone),
-  [14](#turn-14), [18](#turn-18) (dug first, found Olaf, combo again).
+  [14](#turn-14), [16](#turn-16) (the second Tod and The Leviathan kept for the Olaf out; revisited in
+  discussion), [18](#turn-18) (dug first, found Olaf, combo again).
 - **Inaccuracies / mistakes / blunders:**
   - **Mistakes, [6](#turn-6) and [8](#turn-8):** the Device stayed in hand while Elisa Maza, known in their hand,
     could take it.
-  - **Inaccuracies:** [4](#turn-4) (Another Tale's ink drop could bring Elisa a turn early), [16](#turn-16) (no ink,
-    so the second Tod stayed in hand) and [20](#turn-20) (Malicious spent for no kill, when the last out needed it).
+  - **Inaccuracies:** [4](#turn-4) (Another Tale's ink drop could bring Elisa a turn early) and [20](#turn-20)
+    (Malicious spent for no kill, when the last out needed it).
 - **Unwinnable from:** [22](#turn-22): no character, and they needed 4 of their 6 lore.
 
 **What decided it:** Detectives' answers to The Leviathan. The combo landed twice, on turns 12 and 18, each time
@@ -112,6 +113,9 @@ Elisa can't come before game turn 7, after your turn 6 has 3 ink to put a Device
 own drop for you is worth less than a turn of safety for the combo. Inking Tod rather than the second Tale is fine:
 both are spare. [THREAT-1](#cite-threat-1); [TEMPO-1](#cite-tempo-1).
 
+**In discussion (18 Nov 2026):** you call it a straight misplay, made while still learning the cards. The verdict
+stands.
+
 <a id="turn-6"></a>
 
 ### Turn 6: your turn 3
@@ -138,6 +142,11 @@ four, and the only way to turn Olaf into The Leviathan. **Playing the Device** (
 did) is better: it's out of FOLLOW THE TRAIL's reach, and whatever song she takes goes to your discard and makes Olaf
 cheaper. Max Goof's cards can wait a turn; the Device can't. [THREAT-1](#cite-threat-1); the recurring error "ignoring a card known to be
 in their hand" ([the decision method's recurring errors](#cite-docs-decision-method-9-the-coach-s-recurring-errors)).
+
+**In discussion (18 Nov 2026):** you didn't know Elisa Maza could take the Device from your hand, and see it as a
+weigh-up: in play Judy Hopps – On the Case can take it, in hand Elisa can. The setup above weighed exactly that. On
+the Case was about 22% held after their draw; Elisa was known in their hand, with a Detective in play to trigger her.
+On those odds play is the safer place, so the verdict stands.
 
 <a id="turn-8"></a>
 
@@ -168,6 +177,8 @@ better: 5 ink (Torn Corner inked; Device 3 + Strike 2), with Malicious free from
 Eilonwy, damages the rest, protects the Device, and sets up next turn's Leviathan, which kills their whole board while
 you're 6 lore behind. Your line found Strange Things (two of their characters can't quest for a turn) and put four
 actions in your discard (Olaf costs 5), which line A matches. [TEMPO-2](#cite-tempo-2); [THREAT-1](#cite-threat-1).
+
+**In discussion (18 Nov 2026):** as on [turn 6](#turn-6): Elisa was still known in their hand. The verdict stands.
 
 <a id="turn-10"></a>
 
@@ -256,11 +267,17 @@ Stitch (4), or other questers. Every body you add is lore and a target they must
 **What you did:** Inner Strength (drew Tod); Tod (drew Inner Strength and Stegmutt, discarded Stegmutt); Inner Strength
 (drew a second Tod); quested Max Goof (16–11). No ink this turn; 2 ink unused, and the second Tod (3) stayed in hand.
 
-**Verdict: inaccuracy (confidence: medium).** Skipping the ink is suboptimal because it cost the second Tod. **Inking
-Stegmutt and discarding The Leviathan to PROBLEM SOLVING** is better: The Leviathan can't come back this game without
-a character of cost 8 or more to banish (Stegmutt, at 8 with no items in your discard, is too dear to set it up), and
-the eighth ink pays for the second Tod (1 + 3 + 1 + 3 = 8 of your 8): another quester for next turn's last 4 lore, two
-more cards, and one more character their challengers must deal with. [INK-3](#cite-ink-3).
+**Verdict (revisited 18 Nov 2026): good play (confidence: medium-high).** The first verdict, an inaccuracy, preferred
+inking Stegmutt so the second Tod could come down this turn, which meant discarding The Leviathan to PROBLEM SOLVING
+(the only other card the first Tod could discard). It called The Leviathan dead without a character of cost 8 or more
+to banish, and missed that Olaf is one: three were left in your 32 cards, each costing 0 with this many actions in the
+discard, and the Device was already in play. So The Leviathan in hand was the payoff of your best out, Olaf into The
+Leviathan with IT'S A MACHINE! (the brief's needs check: three Olafs, 18% from the draws alone by your turn 20, before
+any dig).
+
+Your answer in discussion, keeping the second Tod to dig for Olaf next turn, keeps that out whole. Playing Tod now or
+next turn sees the same number of cards by your turn 18; all the first verdict's line gained was a 1-lore body a turn
+sooner, for the out's payoff.
 
 <a id="turn-18"></a>
 
@@ -312,6 +329,9 @@ killed).
 and spends the card your only out needs: on turn 22, an Olaf from the draw plus Malicious cast that turn would make
 IT'S A MACHINE! live. **Questing Tod and holding Malicious** is better. The out is slim either way (an Olaf in the next
 draw is about 8%, `tools/odds.py hold 24 2 1`, before any dig), which is why the cost is small.
+
+**In discussion (18 Nov 2026):** Malicious was cast in the hope of setting up Phillip later. Phillip wasn't in hand,
+and Malicious was the second card the Olaf out needed, so the verdict stands.
 
 <a id="turn-22"></a>
 
@@ -367,12 +387,16 @@ Found by the coach during the review; the discussion may add more.
 |---|---|---|---|
 | Turn 10 | The coach's line had both Max Goofs sing, missing that BRAND-NEW PLAYLIST (in the card text the brief printed) made the dry one's quest worth 4 once Malicious went to the discard | Comparing your line with the coach's | Done in e3a80e0 (17 Nov 2026, with the user's agreement): the brief's options show a character's conditional lore with the count it needs ("quest for 1; +3 with 5 songs in your discard: you have 4, so one song cast first makes it 4") |
 | Turns 2–22 | The brief's new LORE BOOSTS line listed Core-legal cards outside their lists (Pocahontas, Promising Lead and others) every turn, most of them noise in a game nowhere near 20 | Reading the briefs | Done in e3a80e0 (17 Nov 2026, with the user's agreement): list boosts outside their lists only when one could decide the race next turn (their lore plus their board's quests within a boost of 20) |
+| Turn 16 | The verdict's line discarded The Leviathan as dead ("can't come back without a character of cost 8 or more"), missing Olaf: three in the deck, each costing 0, with the Device in play. It was the payoff of the best out | The player's answer in discussion (18 Nov 2026): the second Tod was kept to dig for Olaf | Proposed: the brief's DEVICE LINES list, for each payoff in hand with no base in play, the bases left in your deck, what they cost now and the chance of one by the deadline; and the decision method's recurring errors add "a combo piece written off while its partner can still be drawn" |
 
 ## Open questions
-- **[Turns 6](#turn-6) and [8](#turn-8):** why did the Device stay in hand with Elisa known in their hand?
-- **[Turn 16](#turn-16):** why no ink, which left the second Tod in hand?
-- **[Turn 20](#turn-20):** was Malicious cast to set up To Wither or Phillip later, rather than kept for an Olaf turn?
-- **[Turn 4](#turn-4):** Another Tale over Strike: was the ink drop for you worth more than the turn Elisa could gain?
+All answered by the player in discussion, relayed by danny (18 Nov 2026).
+- **[Turns 6](#turn-6) and [8](#turn-8):** you didn't know Elisa could take the Device, and weighed On the Case
+  against her. The verdicts stand: Elisa was known in their hand, On the Case about 22%.
+- **[Turn 16](#turn-16):** the second Tod was kept to dig for Olaf, your out. That kept The Leviathan, which the
+  coach's line would have discarded: revisited to a good play.
+- **[Turn 20](#turn-20):** Malicious was a hope of setting up Phillip. The verdict stands.
+- **[Turn 4](#turn-4):** a misplay, while learning the cards. The verdict stands.
 
 ## Citations
 Copies of the coach's knowledge base cited above, as they stood when they were cited (the private repository's commit and date are given with each). They don't change when the knowledge base does.
