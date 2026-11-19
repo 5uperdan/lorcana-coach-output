@@ -305,7 +305,7 @@ Found by the coach during the review; the discussion may add more.
 
 | When | Error | How it was caught | How it won't happen again |
 |---|---|---|---|
-| Turn 7 | The coach's line (Strike now, the Photo and a mill) saw fewer cards by the combo turn than yours, because it missed that Max Goof in play makes next turn's song free | Comparing your line with the coach's | Proposed: the brief's options mark a song in hand that a character in play (or one you can play this turn) could sing for free next turn |
+| Turn 7 | The coach's line (Strike now, the Photo and a mill) saw fewer cards by the combo turn than yours, because it missed that Max Goof in play makes next turn's song free | Comparing your line with the coach's | Done in 8dffb6e (19 Nov 2026, with the user's agreement): the brief's options mark a song in hand that a character in play (or one you can play this turn) could sing for free next turn |
 
 ## Open questions
 All answered by the player in discussion, relayed by danny (18 Nov 2026).
