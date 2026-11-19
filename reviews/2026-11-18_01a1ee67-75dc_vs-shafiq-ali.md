@@ -377,8 +377,8 @@ Found by the coach during the review; the discussion may add more.
 
 | When | Error | How it was caught | How it won't happen again |
 |---|---|---|---|
-| Turns 15 and 19 | The coach's lines missed the Device chain (The Leviathan into Phillip) and a losing challenge as IT'S A MACHINE!'s second card, the second the lesson of the coach's own review of the game before | Comparing your lines with the coach's | Proposed: the brief's DEVICE LINES list this turn's sources of a second card for the discard (castable actions, a mill, a song a dry character can sing, a challenge one of your characters loses) and each chain the Device opens (a character in play into one costing up to 2 more) |
-| Turn 21 | Read the last turn's log with `--draft-ok`, skipping its `--plan` brief, on a turn whose only line was a 3-lore quest from 17 | Writing the turn's section | Proposed: brief.py refuses `--draft-ok` while the game's review still has its RESULT placeholder (the blind pass isn't over) |
+| Turns 15 and 19 | The coach's lines missed the Device chain (The Leviathan into Phillip) and a losing challenge as IT'S A MACHINE!'s second card, the second the lesson of the coach's own review of the game before | Comparing your lines with the coach's | Done in 8dffb6e (19 Nov 2026, with the user's agreement): the brief's DEVICE LINES list this turn's sources of a second card for the discard (castable actions, a mill, a song a dry character can sing, a challenge one of your characters loses) and each chain the Device opens (a character in play into one costing up to 2 more) |
+| Turn 21 | Read the last turn's log with `--draft-ok`, skipping its `--plan` brief, on a turn whose only line was a 3-lore quest from 17 | Writing the turn's section | Done in 8dffb6e (19 Nov 2026, with the user's agreement): brief.py refuses `--draft-ok` while the game's review still has its RESULT placeholder (the blind pass isn't over) |
 
 ## Open questions
 All answered by the player in discussion, relayed by danny (18 Nov 2026).
