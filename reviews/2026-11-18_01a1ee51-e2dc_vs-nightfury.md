@@ -366,7 +366,7 @@ Found by the coach during the review; the discussion may add more.
 | When | Error | How it was caught | How it won't happen again |
 |---|---|---|---|
 | Turn 1 | Ran two briefs in one command | The guard hook refused it | Nothing new: the hook is the prevention, and it worked |
-| Turn 13 | The comparison credited the held Roller Bob's Rush only if Cinderella had challenged the first, and missed that it lets him join a two-character kill next turn whatever she does | The player's answer in discussion (18 Nov 2026) | Proposed: on your turns the brief's options say, for each card in hand that can give itself Rush (Roller Bob's TIME TO MOVE), whether it can next turn (characters in your discard), so a line that holds it counts its challenge |
+| Turn 13 | The comparison credited the held Roller Bob's Rush only if Cinderella had challenged the first, and missed that it lets him join a two-character kill next turn whatever she does | The player's answer in discussion (18 Nov 2026) | Done in 8dffb6e (19 Nov 2026, with the user's agreement): on your turns the brief's options say, for each card in hand that can give itself Rush (Roller Bob's TIME TO MOVE), whether it can next turn (characters in your discard), so a line that holds it counts its challenge |
 
 ## Open questions
 All answered by the player in discussion, relayed by danny (18 Nov 2026).
