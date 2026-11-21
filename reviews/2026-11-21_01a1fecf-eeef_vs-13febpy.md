@@ -466,12 +466,12 @@ Doesn't change the verdicts above.
 - **Demona – Scourge was never cast:** one was inked on turn 14, and Giant Fairy and the exerts did her job.
 
 ## The coach's errors
-Found during the blind pass; the preventions are proposed and wait for your OK.
+Found during the blind pass. Both preventions were made on 21 Nov 2026, after the user agreed.
 
 | When | Error | How it was caught | How it won't happen again |
 |---|---|---|---|
-| Turn 12 | The exposure check said killing Giant Fairy would cost them their whole board. It missed Eilonwy's Support: her quest adds 2 to a Willow, which then kills Giant Fairy for 3. The verdict stood, but the exposure line was wrong | Turn 13's log; revisited from turn 12's information | The brief's "WHAT CAN CHALLENGE YOUR CHARACTERS ON THEIR NEXT TURN" counts their Supporters in play: a line for each ("quests and adds +N to one challenger"), and each character's "one challenge kills it" includes the best challenger with Support. A test on this game's turn 12. The Amber/Sapphire notes already said they do this ([Ms. UK's Darkwing](#cite-kb-meta-archetypes-amber-sapphire-detectives-against-danny-s-rockstar-aggro-ms-uk)), so the fix is in the tool, not a note |
-| Turn 18 | The coach's plan had Un Poco Loco as dead, with nothing worth replaying. It missed that returning a Boosted Cheshire returns his cards ([CR 5.1.1.7](#cite-cr-5-1-1-7)); the player found the line | The player's line, during the blind pass | A ruling in rulings.md and a line in the Cheshire card note, so the brief shows it whenever Cheshire or Un Poco Loco is in view |
+| Turn 12 | The exposure check said killing Giant Fairy would cost them their whole board. It missed Eilonwy's Support: her quest adds 2 to a Willow, which then kills Giant Fairy for 3. The verdict stood, but the exposure line was wrong | Turn 13's log; revisited from turn 12's information | **Made.** The brief's "WHAT CAN CHALLENGE YOUR CHARACTERS ON THEIR NEXT TURN" counts their Supporters in play: a line for each ("quests and adds +N to one challenger"), and each character's "one challenge kills it" includes the best challenger with Support. Checked on this game's turns 12 and 14, with a test on turn 14. The Amber/Sapphire notes already said they do this ([Ms. UK's Darkwing](#cite-kb-meta-archetypes-amber-sapphire-detectives-against-danny-s-rockstar-aggro-ms-uk)), so the fix is in the tool, not a note |
+| Turn 18 | The coach's plan had Un Poco Loco as dead, with nothing worth replaying. It missed that returning a Boosted Cheshire returns his cards ([CR 5.1.1.7](#cite-cr-5-1-1-7)); the player found the line | The player's line, during the blind pass | **Done** (commit bf61598): a ruling and a line in the Cheshire card note, so the brief shows it whenever Cheshire or Un Poco Loco is in view |
 
 ## Open questions
 - **Turn 10:** was the refill the reason for Giant Fairy over Demona, or the damage it set up?
