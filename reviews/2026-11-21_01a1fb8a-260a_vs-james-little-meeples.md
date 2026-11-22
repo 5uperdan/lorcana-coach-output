@@ -2,9 +2,9 @@
 
 | | |
 |---|---|
-| **Status** | draft (blind pass done, not yet discussed) |
+| **Status** | final (22 Nov 2026: GreenJayPacker's answers, relayed by danny. Turn 11 partly revisited; turn 7 unresolved, the player 50/50) |
 | **Replay** | `01a1fb8a-260a` (`python3 tools/brief.py 01a1fb8a-260a --turn N`) · [duels.ink viewer](https://duels.ink/replay/01a1fb8a-260e-7dd7-ad4f-d050ecdcfe50?step=0) |
-| **Format** | Core Constructed, best of one (matchmade). **Their inks were not revealed before the game**: this replay records only yours, the first of your replays without theirs, so the coach takes it that you didn't see them either |
+| **Format** | Core Constructed, in a tournament-style game mode rather than the usual best-of-one queue (GreenJayPacker, 22 Nov). **Their inks were not revealed before the game**: this replay records only yours, and you confirmed you didn't see theirs |
 | **Decks** | You: Amber/Sapphire **Detectives** ([the coach's notes on it](#cite-kb-meta-archetypes-amber-sapphire-detectives-how-it-plays)). Them: **Amethyst/Emerald** ([the coach's notes on this pair](#cite-kb-meta-archetypes-amethyst-emerald-retro-device-against-danny-s-remember-merida-romancejessica)), Emerald from game turn 2 and Amethyst from turn 4; archetype as it became clear: **Retro Device** (87% from turn 5), though no Device was seen, with three Don Karnage – Khan's Couriers and off-list cards |
 | **Play/draw** | You went first |
 | **Result** | **Win**: they conceded on game turn 22 at 17–7, after a Malicious, Mean, and Scary that left you seven characters |
@@ -17,12 +17,12 @@ Links go to the turn sections below (`[13](#turn-13)`).
   onto Don Karnage, then Higgins and Always Vigilant to banish him), [17](#turn-17) (Elisa first, and Higgins with
   Support for Ursula), [19](#turn-19) (Fangmeyer returning Clues, cast the same turn) and [21](#turn-21) (Support onto
   Fflewddur for Always Vigilant). On 19 and 21 your line beat the coach's plan.
-- **Close calls:** [5](#turn-5) (Elisa inked over Clues), [17](#turn-17) (The Horseman Strikes! for a card, not Lead
-  Detective's Shift).
+- **Close calls:** [5](#turn-5) (Elisa inked over Clues), [11](#turn-11) (Toy Drive Officer kept home from a free
+  kill; revisited in discussion), [17](#turn-17) (The Horseman Strikes! for a card, not Lead Detective's Shift).
 - **Inaccuracies:** the mulligan ([0](#turn-0): four cards sent back from a hand with the deck's best curve),
   [1](#turn-1) (Lead Detective inked over a third 2-drop), [5](#turn-5) (Nick left home when nothing could punish his
-  quest), [7](#turn-7) (two doomed characters quested instead of one trading for Ursula), [11](#turn-11) (Toy Drive
-  and Nick kept home against a deck whose removal ignores whether they're ready).
+  quest), [7](#turn-7) (two doomed characters quested instead of one trading for Ursula; unresolved), [11](#turn-11)
+  (Nick kept home when only a Don challenge that helped you could punish his quest).
 - **Unwinnable from:** never; the race stayed within 3 lore until turn 19.
 
 **What decided it:** they swept five times in nine turns (Malicious twice, two Don Karnage – Debonair Pirates, three
@@ -93,6 +93,9 @@ a removal piece in three games of ten by turn 4 ([MULL-2](#cite-mull-2), [MULL-4
 three Nicks are clumsy together, which is why sending back one is reasonable; sending back four is digging for a hand
 the seven already was.
 
+**Discussion (22 Nov 2026):** you were new to the deck and had no particular hand in mind. The verdict stands; lesson 6
+is the takeaway.
+
 <a id="turn-1"></a>
 
 ### Turn 1: your turn 1
@@ -116,6 +119,12 @@ second is the hand's least needed card ([INK-1](#cite-ink-1), [INK-2](#cite-ink-
   The turns 2–3 plays are the same; you give up only the third 2-drop body.
 The ink for turns 2–4 comes from Clues, Lead Detective or the second Helpful Officer and your draws (47 of your 60
 cards are inkable), so keeping Lead Detective doesn't cost a missed ink.
+
+**Discussion (22 Nov 2026):** new to the deck, you went with the usual plan of inking the high costs early. The verdict
+stands: that habit is what [INK-2](#cite-ink-2) warns against, and in this deck Lead Detective isn't really a 6-drop.
+She Shifts for 4 onto any of the sixteen other Judys in your list, so she lands on turn 4 and Alert turns every
+Detective into a challenger. You inked her early in your game against [AD-S] McWryze too (01a1ffec-372f, turn 5),
+where she turned out to be the matchup's key card.
 
 <a id="turn-3"></a>
 
@@ -219,6 +228,19 @@ leaves Day Camp exerted to the Courier's trade or a ping, as yours left both. Pl
 right: she digs on every quest, and Toy Drive draws only on a turn you play two characters, which next turn's 5 ink
 can do.
 
+**Discussion (22 Nov 2026):** you confirmed the reason the coach asked about. You kept Nick and Day Camp rather than
+give Nick up for Ursula, so they could Support Don Karnage into Gaston's or Always Vigilant's range later. You're 50/50
+on the verdict. Re-examined, it stands, but the disagreement is recorded as **unresolved**:
+- **Questing didn't keep them safe; it exerted them.** Both were on 1 willpower. Any of the three pings (about 40%
+  before their dig) killed both whether they quested or not. Without a ping, Ursula could kill the exerted Day Camp
+  for free and the Courier could trade with Nick.
+- **The Support had nothing to work with yet.** Neither Gaston nor Always Vigilant was in hand (Clues, Toy Drive
+  Officer, Besties), and Don Karnage – Debonair Pirate wasn't in play. So the Supporters had to survive a turn with
+  four live answers, and then the removal had to be drawn.
+- **Your logic points to keeping both ready instead.** That would have saved them from challenges, though not from a
+  ping, for no lore. The trade was certain value: their 1-lore quester, and the one character that could kill Day Camp
+  for nothing.
+
 <a id="turn-8"></a>
 
 ### Turn 8: their turn
@@ -300,6 +322,16 @@ a third Toy Drive and Eilonwy.
   staying ready saved nothing from the sweep, only from Don's challenges, and those cost him his quest. That's
   [H-12](#cite-h-12)'s case (a waiting board that the removal reaches anyway gives up lore for nothing). The verdict
   stands.
+- **Discussion (22 Nov 2026), revisited in part:** your reason was to keep both away from challenges, so they could
+  Support next turn to kill Don. Re-checked against this turn's brief:
+  - **Toy Drive Officer: inaccuracy → close call.** The brief's exposure line says Don and Ursula together kill an
+    exerted Toy Drive (4 willpower), and both survive its 2 back: a free kill of your draw engine. It would cost
+    them 3 lore of quests. The blind verdict counted that as "3 of theirs for 1" and left out both the engine and
+    that the kill was free (the coach's errors). Keeping it home was a fair choice.
+  - **Nick: the inaccuracy stands, and it's small (1 lore).** Only Don could kill him (Ursula's 1 can't), and that
+    costs Don his 2 lore and 3 of his 6 willpower, and leaves him exerted. That makes next turn's kill easier, not
+    harder. You'd still have had plenty of Support either way: the second Toy Drive and Day Camp were dry next turn,
+    and the first Toy Drive too if it stayed home.
 
 <a id="turn-12"></a>
 
@@ -481,9 +513,10 @@ of line 1 buys nothing unless they can stop you next turn, and line 2 is the one
 Fflewddur singing Malicious for free. They need to stop 3 lore from nine characters with 7 ink and two Couriers.
 
 ## Lessons
-1. **Against a ping deck, staying ready protects nothing.** Malicious, Mean, and Scary, Don Karnage – Debonair Pirate
-   and To Wither a Flower hit ready and exerted characters alike, so a character kept home only dodges challenges,
-   and gives up its lore ([5](#turn-5), [11](#turn-11); [H-12](#cite-h-12)).
+1. **Against a ping deck, staying ready protects only from challenges.** Malicious, Mean, and Scary, Don Karnage –
+   Debonair Pirate and To Wither a Flower hit ready and exerted characters alike. So keep home only what their board
+   can kill for free by challenging (Toy Drive Officer on [11](#turn-11)), and quest the rest
+   ([5](#turn-5), Nick on [11](#turn-11); [H-12](#cite-h-12)).
 2. **Support onto their character is removal.** Toy Drive Officer's +2 put Don Karnage (3 {S}) and Fflewddur (4) in
    range of Always Vigilant's 5-strength banish ([15](#turn-15), [21](#turn-21)). The brief's STRENGTH REMOVAL line
    lists these targets every turn.
@@ -493,10 +526,11 @@ Fflewddur singing Malicious for free. They need to stop 3 lore from nine charact
    which is how your board kept outlasting their sweeps ([9](#turn-9), [13](#turn-13), [19](#turn-19)).
 5. **Elisa Maza is information even when she takes nothing.** Her reveal on [17](#turn-17) showed no song or removal in
    their hand, which made the rest of that turn and the next safe to plan.
-6. **Keep a seven that already curves.** Helpful Officer, Nick, Nick, then Always Vigilant or Clues on turn 4 was the
-   deck's plan; sending four back gave up removal for nothing measurable ([0](#turn-0); [MULL-4](#cite-mull-4)).
+6. **Keep a seven that already curves, and don't ink Lead Detective early.** Helpful Officer, Nick, Nick, then Always Vigilant or Clues on turn 4 was the
+   deck's plan; sending four back gave up removal for nothing measurable ([0](#turn-0); [MULL-4](#cite-mull-4)). Lead
+   Detective is a 4-ink Shift in this deck, not a spare 6-drop ([1](#turn-1); [INK-2](#cite-ink-2)).
 
-## Proposed knowledge-base updates (applied after discussion)
+## Knowledge-base updates (applied 22 Nov 2026, after discussion)
 - **Meta, Amethyst/Emerald notes:** a new section, *Retro Device (a Don Karnage build) against GreenJayPacker's
   Detectives: James (Little Meeples)* (blind review of `01a1fb8a-260a`):
   - **Seen:** Don Karnage – Khan's Courier ×3, Don Karnage – Debonair Pirate ×2, Malicious, Mean, and Scary ×2, To
@@ -510,14 +544,16 @@ Fflewddur singing Malicious for free. They need to stop 3 lore from nine charact
     Elisa, Always Vigilant, Clues) that one ping can't kill; card flow faster than their sweeps.
 - **Meta, Amber/Sapphire notes (Detectives as your deck):** GreenJayPacker's list (Toy Drive Officer ×4, Elisa ×4,
   Fangmeyer ×3, Gaston ×3, Lead Detective ×3, and Mickey Mouse – Expedition Leader, Belle – Snowfield Strategist,
-  Grandmother Willow and Hamm ×2 each) and its piloting points
-  from lessons 2 and 4.
+  Grandmother Willow and Hamm ×2 each) and its piloting points from lessons 1, 2, 4 and 6, including that Lead
+  Detective was inked early in this game and against [AD-S] McWryze.
+- **Formats:** duels.ink's tournament-style mode doesn't reveal inks before the game (your answer to question 1).
 - **Meta index, opponents in reviewed games:** a row for James (Amethyst/Emerald).
 - **Strategy, [H-6](#cite-h-6):** evidence on its limit: against a deck whose removal is pings and songs, a ready
-  board saves nothing from the sweep ([11](#turn-11)).
-- **Strategy, [H-12](#cite-h-12):** evidence for, outside Rockstar Aggro: the same reasoning held for Detectives against
-  ping sweepers ([5](#turn-5), [11](#turn-11)). Proposed wording: "a board whose removal doesn't need it exerted should
-  quest".
+  board saves nothing from the sweep, only from challenges; Toy Drive Officer, which Don and Ursula could kill for
+  free, was worth keeping home ([11](#turn-11)).
+- **Strategy, [H-12](#cite-h-12):** evidence for, outside Rockstar Aggro: Nick's quests on turns 5 and 11, which nothing
+  could punish without slowing their clock. The "quest every turn" claim isn't widened: Toy Drive on turn 11 is its
+  limit.
 - **Rules:** none.
 
 ## Hindsight
@@ -536,22 +572,27 @@ Doesn't change the verdicts above.
 <a id="the-coachs-errors"></a>
 
 ## The coach's errors
-Found by the coach during the review; the discussion may add more.
+Found by the coach during the review, and in the discussion.
 
 | When | Error | How it was caught | How it won't happen again |
 |---|---|---|---|
 | Turn 0 | The brief crashed: this is the first of your replays whose coin toss records only your inks, not theirs | The turn-0 brief failed | Fixed during the review, not yet committed: a reveal without the opponent's inks counts as none, and until two inks are seen the opponent model weighs every ink pair the cards seen allow, with each pair's odds printed. Proposed: a test on this replay at turns 0 and 3 |
 | Turn 11 | The blind verdict didn't weigh [H-6](#cite-h-6), which the brief listed under Toy Drive Officer's knowledge-base notes; it was found in the search after the pass, and the verdict revisited (it stands) | The knowledge-base search after the pass | Proposed: the brief prints the hypotheses linked to the cards in view as their own short list above the card notes, so they aren't lost among dozens of pair-file pointers |
+| Turn 11, the verdict | Counted an exerted Toy Drive Officer's exposure as lore only ("3 of theirs for 1"), though the brief's exposure line said Don and Ursula kill it and both survive: a free kill of the draw engine. Revisited to a close call | GreenJayPacker's answer (keep the Supporters from challenges), then the coach's re-check of this turn's brief | Proposed: the brief's challenge section opens with a FREE KILLS line naming each character of yours their board can kill with no loss if it's exerted, and the verdict on any quest-or-stay-home decision names each one in that line |
 | Turn 19 | The plan missed Fangmeyer returning Uncovering Clues and Clues being cast the same turn; your line beat the plan | Comparing your line with the plan | Proposed: for a card that returns a card from your discard (Fangmeyer's REQUEST REINFORCEMENTS), the brief's options list what it can return and which of those the ink left can cast ("Fangmeyer 5 + Clues 4 = 9 of 9") |
 | Turn 21 | The plan missed the Support + Always Vigilant banish on Fflewddur that the brief's STRENGTH REMOVAL line printed: the recurring error the method already names (Support onto their character for strength-threshold removal). Your line beat the plan | Comparing your line with the plan | Proposed: each "in range with your Support" target becomes a complete line in the brief's YOUR OPTIONS, with the Supporter, the "another character" Always Vigilant needs, and the ink sum ("Toy Drive +2 onto Fflewddur; On the Case 3 + Always Vigilant 4 = 7 of 9: banishes Fflewddur") |
 
 ## Open questions
-- **Did duels.ink show you James's inks before the game?** This replay doesn't record them, the first of yours that
-  doesn't. The review assumed you didn't see them (pre-game and turn 1).
-- **Pre-game:** what were you looking for with the four-card mulligan, sending back Always Vigilant and Elisa?
-- **Turn 1:** why ink Lead Detective rather than one of the two Nicks?
-- **Turn 7:** were Nick and Day Camp quested rather than trading Nick for Ursula to keep them as Supporters against Don?
-- **Turn 11:** why keep Toy Drive Officer and Nick home: to protect the draw engine from Don and Ursula's challenges?
+Answered by GreenJayPacker, relayed by danny on 22 Nov 2026:
+- ~~**Did duels.ink show you James's inks before the game?**~~ No: it was a tournament-style game mode, not the usual
+  best-of-one queue.
+- ~~**Pre-game:** what were you looking for with the four-card mulligan?~~ New to the deck, no particular hand in mind.
+- ~~**Turn 1:** why ink Lead Detective rather than one of the two Nicks?~~ New to the deck: the usual plan of inking
+  the high costs early.
+- ~~**Turn 7:** were Nick and Day Camp quested to keep them as Supporters against Don?~~ Yes. The verdict stands;
+  you're 50/50 on it (unresolved).
+- ~~**Turn 11:** why keep Toy Drive Officer and Nick home?~~ To keep them from challenges and use their Support to
+  kill Don. Revisited in part (Toy Drive to a close call).
 
 ## Citations
 Copies of the coach's knowledge base cited above, as they stood when they were cited (the private repository's commit and date are given with each). They don't change when the knowledge base does.
