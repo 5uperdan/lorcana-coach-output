@@ -334,11 +334,11 @@ Doesn't change the verdicts above.
   on turn 10. Angel's GOOD AIM on turn 12 cost them Angela, and inking Francine emptied their hand for good.
 
 ## The coach's errors
-Found in the blind pass; preventions proposed, not yet made.
+Found in the blind pass.
 
 | When | Error | How it was caught | How it won't happen again |
 |---|---|---|---|
-| Turns 9 and 11 | The coach's plans ignored what this turn's digs could find: an inkable Detective on turn 9 (for a 5-ink double play), and a Lead Detective on turn 11 (34% with the dig, in the brief), with a Day Camp Instructor in play to Shift onto. Both times the player's line was better | The player's line, read after the plan | Proposed: when a dig comes before the turn's plays, the brief prints "WHAT THIS TURN'S DIG CAN FIND", the cards it can take that change the turn, with their odds: a Shift onto a base in play, an inkable card when the hand has none, a card that completes a double play. The setup then branches on it ([the decision method, section 4](#cite-docs-decision-method-4-evaluate-each-line), item 3) |
+| Turns 9 and 11 | The coach's plans ignored what this turn's digs could find: an inkable Detective on turn 9 (for a 5-ink double play), and a Lead Detective on turn 11 (34% with the dig, in the brief), with a Day Camp Instructor in play to Shift onto. Both times the player's line was better | The player's line, read after the plan | Made 22 Nov 2026, with danny's agreement (not yet committed): with a dig to use, the brief prints "WHAT THIS TURN'S DIG CAN FIND", the cards the dig can take that change the turn, with the chance this turn's digs see one: a Shift onto your character in play (acting at once if the base is dry), an inkable card when your hand has none, removal castable now. On turn 11 it lists the Lead Detective Shift; on turn 9, Elisa as the missing ink. The setup branches on it ([the decision method, section 4](#cite-docs-decision-method-4-evaluate-each-line), item 3) |
 
 ## Open questions
 - Pre-game: why send back The Horseman Strikes!, against a list of Evasive questers?
